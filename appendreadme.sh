@@ -42,5 +42,6 @@ printf '\n' >> "$README"
 
 # capture link and title from csv, format as md link, and replace csv escaped
 # double-double quotes with single double quotes (say that 6 times fast!)
+# replace empty labels with literal 'null' so that there's something to click on
 # append to readme
-sed -nE 's/^"[0-9a-f-]{36}","(.*)","[0-9TZ:.-]{30}","(.*)"/[\2](\1) |/p;s/""/"/g' "$CSV" >> "$README"
+sed -nE 's/^"[0-9a-f-]{36}","(.*)","[0-9TZ:.-]{30}","(.*)"/[\2](\1) |/p;s/""/"/gp;s/^\[\]/[null]/p' "$CSV" >> "$README"

@@ -158,6 +158,7 @@ previous versions. I have no idea what the selection/moderation process is.
 [Prism twirler](https://xkcd.com/2916/#xt=8&yt=7&v=113) |
 [Double half pipe](https://xkcd.com/2916/#xt=10&yt=7&v=118) |
 [The ""I can't believe it actually works""](https://xkcd.com/2916/#xt=7&yt=7&v=111) |
+[The "I can't believe it actually works"](https://xkcd.com/2916/#xt=7&yt=7&v=111) |
 [Minefield](https://xkcd.com/2916/#xt=9&yt=7&v=114) |
 [unsteady stack](https://xkcd.com/2916/#xt=6&yt=7&v=110) |
 [Descent](https://xkcd.com/2916/#xt=5&yt=7&v=110) |
@@ -261,6 +262,7 @@ previous versions. I have no idea what the selection/moderation process is.
 [WAAAGGGGGGGG!!!!](https://xkcd.com/2916/#xt=4&yt=13&v=225) |
 [I Don't Think This Is OSHA Compliant](https://xkcd.com/2916/#xt=8&yt=15&v=220) |
 [""I think the Interns are taking care of it.](https://xkcd.com/2916/#xt=8&yt=15&v=221) |
+["I think the Interns are taking care of it.](https://xkcd.com/2916/#xt=8&yt=15&v=221) |
 [scintillae](https://xkcd.com/2916/#xt=5&yt=13&v=229) |
 [Chaos in a box](https://xkcd.com/2916/#xt=5&yt=13&v=227) |
 [launch](https://xkcd.com/2916/#xt=10&yt=12&v=220) |
@@ -473,6 +475,7 @@ previous versions. I have no idea what the selection/moderation process is.
 [panning for green](https://xkcd.com/2916/#xt=0&yt=33&v=477) |
 [Don't Settle For Simple](https://xkcd.com/2916/#xt=5&yt=32&v=474) |
 [](https://xkcd.com/2916/#xt=10&yt=32&v=479) |
+[null](https://xkcd.com/2916/#xt=10&yt=32&v=479) |
 [sorter](https://xkcd.com/2916/#xt=6&yt=32&v=469) |
 [YelloGreenPerfect](https://xkcd.com/2916/#xt=10&yt=31&v=473) |
 [Drink's on the house](https://xkcd.com/2916/#xt=8&yt=30&v=469) |
@@ -545,6 +548,7 @@ previous versions. I have no idea what the selection/moderation process is.
 [Party flippers](https://xkcd.com/2916/#xt=5&yt=37&v=553) |
 [Diamond Bonk](https://xkcd.com/2916/#xt=4&yt=37&v=545) |
 [](https://xkcd.com/2916/#xt=2&yt=37&v=543) |
+[null](https://xkcd.com/2916/#xt=2&yt=37&v=543) |
 [They call it dunamancy](https://xkcd.com/2916/#xt=3&yt=38&v=565) |
 [Prism Pachinko](https://xkcd.com/2916/#xt=0&yt=38&v=562) |
 [The Machine](https://xkcd.com/2916/#xt=7&yt=39&v=559) |
@@ -648,6 +652,7 @@ previous versions. I have no idea what the selection/moderation process is.
 [I seriously doubt this pillow fort is up to code](https://xkcd.com/2916/#xt=0&yt=47&v=654) |
 [meowamid outside the bonker forge](https://xkcd.com/2916/#xt=5&yt=46&v=652) |
 [trans entertainment machine aka ""they're helping!""](https://xkcd.com/2916/#xt=5&yt=47&v=667) |
+[trans entertainment machine aka "they're helping!"](https://xkcd.com/2916/#xt=5&yt=47&v=667) |
 [With No due respect to Gravity](https://xkcd.com/2916/#xt=4&yt=48&v=673) |
 [Under the Stairs](https://xkcd.com/2916/#xt=9&yt=47&v=663) |
 [Quantum Computer](https://xkcd.com/2916/#xt=0&yt=49&v=672) |
@@ -685,6 +690,7 @@ previous versions. I have no idea what the selection/moderation process is.
 [chaos II](https://xkcd.com/2916/#xt=9&yt=50&v=701) |
 [Spin to win](https://xkcd.com/2916/#xt=2&yt=50&v=705) |
 [](https://xkcd.com/2916/#xt=9&yt=51&v=713) |
+[null](https://xkcd.com/2916/#xt=9&yt=51&v=713) |
 [goodsort](https://xkcd.com/2916/#xt=5&yt=51&v=715) |
 [HOW STOP LIGHTS WORK](https://xkcd.com/2916/#xt=4&yt=51&v=716) |
 [Catto Assisted Sorting](https://xkcd.com/2916/#xt=3&yt=51&v=717) |
@@ -789,6 +795,7 @@ previous versions. I have no idea what the selection/moderation process is.
 [And yet they called me mad when I filled the machine with BEES](https://xkcd.com/2916/#xt=10&yt=59&v=812) |
 [In-flight crossing](https://xkcd.com/2916/#xt=4&yt=58&v=808) |
 [](https://xkcd.com/2916/#xt=3&yt=60&v=830) |
+[null](https://xkcd.com/2916/#xt=3&yt=60&v=830) |
 [Agitate and Evaporate](https://xkcd.com/2916/#xt=0&yt=59&v=823) |
 [Polynomial Time](https://xkcd.com/2916/#xt=6&yt=60&v=829) |
 [Coasters](https://xkcd.com/2916/#xt=0&yt=60&v=824) |
@@ -817,6 +824,7 @@ previous versions. I have no idea what the selection/moderation process is.
 [tunnels](https://xkcd.com/2916/#xt=6&yt=61&v=845) |
 [fascinating invention](https://xkcd.com/2916/#xt=10&yt=61&v=848) |
 [](https://xkcd.com/2916/#xt=9&yt=61&v=847) |
+[null](https://xkcd.com/2916/#xt=9&yt=61&v=847) |
 [4-panel comic: sea-saw bun](https://xkcd.com/2916/#xt=9&yt=62&v=849) |
 [Dueling Pneumatics](https://xkcd.com/2916/#xt=5&yt=62&v=854) |
 [Ball Pens Are FUN](https://xkcd.com/2916/#xt=11&yt=62&v=852) |
@@ -851,6 +859,7 @@ previous versions. I have no idea what the selection/moderation process is.
 [Final boss](https://xkcd.com/2916/#xt=3&yt=65&v=889) |
 [Folsom prism blues](https://xkcd.com/2916/#xt=2&yt=64&v=886) |
 [](https://xkcd.com/2916/#xt=0&yt=65&v=888) |
+[null](https://xkcd.com/2916/#xt=0&yt=65&v=888) |
 [pillow power](https://xkcd.com/2916/#xt=0&yt=64&v=884) |
 [The Turtle Moves](https://xkcd.com/2916/#xt=4&yt=65&v=899) |
 [Measure once, Sort Twice](https://xkcd.com/2916/#xt=8&yt=68&v=898) |
