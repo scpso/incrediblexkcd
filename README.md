@@ -32,14 +32,14 @@ of all blueprints that have been published on
 
 Otherwise feel free to run the script
 [getincrediblexkcd.sh](/getincrediblexkcd.sh)
-yourself. It takes me about 15mins
-to run for the first 934 machines. You can stop it at any time by just pressing
+yourself. It takes me about 6mins
+to run for the first 938 machines. You can stop it at any time by just pressing
 `CTRL-C` to send a SIGINT and it *should* exit gracefully. When you run the
 script again you can use the argument `--reset` to delete all data and start
 from scratch, or otherwise it should nominally pick up where it left off. That
 said, the slowest part of the script is scanning through the files rather than
 downloading the raw data so it's not a whole lot faster - it still takes
-me 12mins to scan through the 934 machines without downloading anything. No
+me 4mins to scan through the 938 machines without downloading anything. No
 doubt there are more performant methods to use - and if you have any tips
 regarding this (or my script authorship in general) feel free to open an issue.
 
