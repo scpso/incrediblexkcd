@@ -40,8 +40,11 @@ printf '%s\n' "$contents" > "$README"
 # add extra line
 printf '\n' >> "$README"
 
+# get data rows only
+contents="$(tail -n +2 "$CSV")"
+
 # capture link and title from csv, format as md link, and replace csv escaped
 # double-double quotes with single double quotes (say that 6 times fast!)
 # replace empty labels with literal 'null' so that there's something to click on
 # append to readme
-sed -nE 's/^"[0-9a-f-]{36}","(.*)","[0-9TZ:.-]{30}","(.*)"/[\2](\1) |/p;s/""/"/gp;s/^\[\]/[null]/p' "$CSV" >> "$README"
+printf '%s\n' "$contents" | sed -E 's/^"[0-9a-f-]{36}","(.*)","[0-9TZ:.-]+","(.*)"/[\2](\1) |/;s/""/"/g;s/^\[\]/[null]/' >> "$README"
