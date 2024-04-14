@@ -85,9 +85,8 @@ getmachs() {
 }
 
 queueblues() {
-    local machf mach x y n mach nullcount id bluef queuef link
+    local machf x y n mach nullcount id bluef queuef link
     machf="$1"
-    mach="$(cat "$machf")"
     x="$2"
     y=0
 
@@ -95,12 +94,9 @@ queueblues() {
     n="$((x+1))"
 
     nullcount=0
-    while true; do
-        # if:
-        # jq generates a parse error (i.e. machine file isn't fully downloaded)
-        # or if id is empty - shouldn't happen but shouldn't hurt
-        # or if id has the literal value "null" -> this is expected output from jq
-        if ! id="$(printf '%s' "$mach" | jq ".grid[$y].[$x]" 2>/dev/null | sed s/\"//g)" || [ -z "$id" ] || [ "$id" = "null" ]; then
+
+    for id in $(jq ".grid[].[$x]" "$machf" 2>/dev/null | sed s/\"//g); do
+        if [ -z "$id" ] || [ "$id" = "null" ]; then
             nullcount="$((nullcount+1))"
             # hardcode limit of 4 consecutive nulls to break. Since we're
             # parallelising over x values, these are vertically consecutive
@@ -136,13 +132,6 @@ queueblues() {
             printf '\033[%sE\033[2K\033[33mblueprint: \033[0m%s\033[%sF' "$n" "$id" "$n"
         fi
         y=$((y+1))
-
-        # from observation it appears the max array size is y=127
-        # but from observed published machines so far we expect to break due to
-        # consecutive nulls long before we hit this limit
-        if [ "$y" -ge 128 ]; then
-            break
-        fi
     done
 }
 
