@@ -272,14 +272,13 @@ for ((v=0; v<=current; v++)); do
             jobpids["$x"]="$!"
         done
     fi
-    # flush queue if we're in last iteration
-    if [ "$v" -eq "$current" ]; then
-        queuefs=($BDIR/*.queue)
-        for ((x=0; x<"${#queuefs[@]}"; x++)); do
-            getbluef "${queuefs["$x"]}" "$x" &
-            jobpids["$x"]="$!"
-        done
-    fi
     wait
 done
+# flush queue
+queuefs=($BDIR/*.queue)
+for ((x=0; x<"${#queuefs[@]}"; x++)); do
+    getbluef "${queuefs["$x"]}" "$x" &
+    jobpids["$x"]="$!"
+done
+wait
 cleanvt
