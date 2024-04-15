@@ -155,7 +155,7 @@ getbluef() {
     # 32m -> green color
     # 0m -> normal color (no blinking
     # {n}F -> move cursor up {n} lines
-    printf '\033[%sE\033[2K\033[33mblueprint: \033[0m%s \033[5m\033[32mdownloading...\033[0m\033[%sF' "$n" "$id" "$n"
+    printf '\033[%sE\033[2K\033[33mfetching: \033[0m%s \033[5m\033[32mdownloading...\033[0m\033[%sF' "$n" "$id" "$n"
     curl -m 10 -SsL "$API/folio/$id" > "$bluef"
 
     submittedAt="$(jq .blueprint.submittedAt "$bluef")"
@@ -163,6 +163,13 @@ getbluef() {
     title="$(jq .blueprint.title "$bluef" | sed 's/\\"/""/g')"
 
     printf '"%s","%s",%s,%s\n' "$id" "$link" "$submittedAt" "$title" >> "$CSV"
+
+    # {n}E -> move cursor down {n} lines
+    # 2K -> clears line
+    # 33m -> orange color
+    # 0m -> normal color
+    # {n}F -> move cursor up {n} lines
+    printf '\033[%sE\033[2K\033[33mfetching: \033[0m%s \033[33mdone\033[0m\033[%sF' "$n" "$id" "$n"
 
     rm "$queuef"
 }
