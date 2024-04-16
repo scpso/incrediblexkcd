@@ -208,7 +208,7 @@ printf '\n\n\n\n\n\n\n\n\n\n\n\n\n'
 # 0m -> normal color (no blinking)
 printf '\033[?25l\033[13F\033[2K\033[33mcurrent published machine: \033[5m\033[32mdownloading...\033[0m'
 current=$(curl -SsL "$API/machine/current" | jq .version)
-curl -m 10 -SsL "$URL/puzzle" > "$PFILE"
+curl -m 10 -SsL "$API/puzzle" > "$PFILE"
 
 # 2K -> clears line
 # 1G -> move cursor to 1st column in line
