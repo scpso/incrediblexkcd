@@ -240,26 +240,12 @@ wait
 for ((v=0; v<=current; v++)); do
     machf="$MDIR/$v.json"
 
-    # wait for machf to be downloaded if it doesn't exist yet
-    # make sure jq can parse the file (i.e. file is complete)
-    while true; do
-        if [ -f "$machf" ] && jq '.version' "$machf" 1>/dev/null 2>&1; then
-            break
-        else
-            # there seems to be a race condition that I don't understand, but
-            # sleeping here to ensure getmachs gets ahead of getblues seems to
-            # help avoid it
-            sleep '10s'
-        fi
-    done
-
     # 2K -> clears line
     # 1G -> move cursor to 1st column in line
     # 33m -> orange color
     # 0m -> normal color
     printf '\033[2K\033[1G\033[33mprocessing machine: \033[0m%s' "$machf"
 
-    jobpids=()
     queuefs=($BDIR/*.queue)
     if [ "${#queuefs[@]}" -eq 12 ]; then
         for ((x=0; x<12; x++)); do
