@@ -72,7 +72,7 @@ getmachs() {
         # 32m -> green color
         # 0m -> normal color (no blinking
         # {n}F -> move cursor up {n} lines
-        printf '\033[%sE\033[2K\033[33mmachine file: \033[0m%s \033[5m\033[32mdownloading...\033[0m\033[%sF' "$n" "$machf" "$n"
+        printf '\033[%sE\033[2K\033[33mmachine: \033[0m%s \033[5m\033[32mdownloading...\033[0m\033[%sF' "$n" "$machf" "$n"
 
         curl -m 10 -SsL "$API/machine/$v" > "$machf"
     done
@@ -135,43 +135,49 @@ queueblues() {
     done
 }
 
-getbluef() {
-    local queuef x itms id link bluef submittedAt title
-    queuef="$1"
-    x="$2"
-    itms=( $(cat "$queuef") )
-    id="${itms[0]}"
-    link="${itms[1]}"
+getbluefs() {
+    local x queuefs queuef itms id link bluef submittedAt title
+    x="$1"
+    queuefs=("$@")
+    # remove x argument, assigned above, from function arguments - remaining
+    # elements are an array of queue files
+    unset "queuefs[0]"
 
-    # number of rows to jump down to display progress for this job
-    n="$((x+1))"
+    for queuef in "${queuefs[@]}"; do
+        itms=( $(cat "$queuef") )
+        id="${itms[0]}"
+        link="${itms[1]}"
 
-    bluef="$BDIR/$id.json"
+        # number of rows to jump down to display progress for this job
+        n="$((x+1))"
+
+        bluef="$BDIR/$id.json"
+        # {n}E -> move cursor down {n} lines
+        # 2K -> clears line
+        # 33m -> orange color
+        # 0m -> normal color
+        # 5m -> slow blink
+        # 32m -> green color
+        # 0m -> normal color (no blinking
+        # {n}F -> move cursor up {n} lines
+        printf '\033[%sE\033[2K\033[33mblueprint: \033[0m%s \033[5m\033[32mdownloading...\033[0m\033[%sF' "$n" "$id" "$n"
+        curl -m 10 -SsL "$API/folio/$id" > "$bluef"
+
+        submittedAt="$(jq .blueprint.submittedAt "$bluef")"
+        # correct double quote escaping for .csv
+        title="$(jq .blueprint.title "$bluef" | sed 's/\\"/""/g')"
+
+        printf '"%s","%s",%s,%s\n' "$id" "$link" "$submittedAt" "$title" >> "$CSV"
+
+        rm "$queuef"
+    done
+
     # {n}E -> move cursor down {n} lines
     # 2K -> clears line
     # 33m -> orange color
     # 0m -> normal color
-    # 5m -> slow blink
-    # 32m -> green color
-    # 0m -> normal color (no blinking
     # {n}F -> move cursor up {n} lines
-    printf '\033[%sE\033[2K\033[33mfetching: \033[0m%s \033[5m\033[32mdownloading...\033[0m\033[%sF' "$n" "$id" "$n"
-    curl -m 10 -SsL "$API/folio/$id" > "$bluef"
-
-    submittedAt="$(jq .blueprint.submittedAt "$bluef")"
-    # correct double quote escaping for .csv
-    title="$(jq .blueprint.title "$bluef" | sed 's/\\"/""/g')"
-
-    printf '"%s","%s",%s,%s\n' "$id" "$link" "$submittedAt" "$title" >> "$CSV"
-
-    # {n}E -> move cursor down {n} lines
-    # 2K -> clears line
-    # 33m -> orange color
-    # 0m -> normal color
-    # {n}F -> move cursor up {n} lines
-    printf '\033[%sE\033[2K\033[33mfetching: \033[0m%s \033[33mdone\033[0m\033[%sF' "$n" "$id" "$n"
-
-    rm "$queuef"
+    printf '\033[%sE\033[2K\033[33mdone downloading blueprint files\033[0m\033[%sF' "$n" "$n"
 }
 
 cleanvt() {
@@ -185,17 +191,17 @@ cleanvt() {
         # 2K -> clears line
         printf '\033[1E\033[2K'
     done
-    # 11F -> move cursor up 11 lines
+    # 12F -> move cursor up 12 lines
     # 0m -> normal color
     # ?25h -> show cursor
-    printf '\033[11F\033[0m\033[?25h'
+    printf '\033[12F\033[0m\033[?25h'
 }
 
-trap 'cleanvt; exit 130' INT
+trap 'cleanvt; printf "^C\n"; exit 130' INT
 
 # add 14 rows for displaying progress
 # line 1: current machine --> static, will not be cleared
-# line 2: machine currently being processed --> wll not be erased
+# line 2: machine currently being processed --> erased when script quits
 # line 3-14: parallel blueprint jobs --> erased when script quits
 printf '\n\n\n\n\n\n\n\n\n\n\n\n\n'
 
@@ -206,7 +212,7 @@ printf '\n\n\n\n\n\n\n\n\n\n\n\n\n'
 # 5m -> slow blink
 # 32m -> green color
 # 0m -> normal color (no blinking)
-printf '\033[?25l\033[13F\033[2K\033[33mcurrent published machine: \033[5m\033[32mdownloading...\033[0m'
+printf '\033[?25l\033[13F\033[2K\033[33mcurrent published machine version: \033[5m\033[32mdownloading...\033[0m'
 current=$(curl -SsL "$API/machine/current" | jq .version)
 curl -m 10 -SsL "$API/puzzle" > "$PFILE"
 
@@ -214,7 +220,7 @@ curl -m 10 -SsL "$API/puzzle" > "$PFILE"
 # 1G -> move cursor to 1st column in line
 # 33m -> orange color
 # 0m -> normal color
-printf '\033[2K\033[1G\033[33mcurrent published machine: \033[0m%s' "$current"
+printf '\033[2K\033[1G\033[33mcurrent published machine version: \033[0m%s' "$current"
 # down one line
 printf '\n'
 
@@ -226,6 +232,13 @@ if [ ! -f "$CSV" ]; then
 fi
 
 jobpids=()
+
+# 2K -> clears line
+# 1G -> move cursor to 1st column in line
+# 33m -> orange color
+# 0m -> normal color
+printf '\033[2K\033[1G\033[33mfetching machine files:\033[0m'
+
 min=0
 inc=$((current/12))
 for ((x=0; x<11; x++)); do
@@ -244,27 +257,41 @@ for ((v=0; v<=current; v++)); do
     # 1G -> move cursor to 1st column in line
     # 33m -> orange color
     # 0m -> normal color
-    printf '\033[2K\033[1G\033[33mprocessing machine: \033[0m%s' "$machf"
+    printf '\033[2K\033[1G\033[33mprocessing machine version: \033[0m%s' "$machf"
 
-    queuefs=($BDIR/*.queue)
-    if [ "${#queuefs[@]}" -eq 12 ]; then
-        for ((x=0; x<12; x++)); do
-            getbluef "${queuefs["$x"]}" "$x" &
-            jobpids["$x"]="$!"
-        done
-    else
-        for ((x=0; x<12; x++)); do
-            queueblues "$machf" "$x" &
-            jobpids["$x"]="$!"
-        done
-    fi
+    for ((x=0; x<12; x++)); do
+        queueblues "$machf" "$x" &
+        jobpids["$x"]="$!"
+    done
     wait
 done
-# flush queue
-queuefs=($BDIR/*.queue)
-for ((x=0; x<"${#queuefs[@]}"; x++)); do
-    getbluef "${queuefs["$x"]}" "$x" &
+
+# 2K -> clears line
+# 1G -> move cursor to 1st column in line
+# 33m -> orange color
+# 0m -> normal color
+printf '\033[2K\033[1G\033[33mfetching blueprint files:\033[0m'
+
+allqueuefs=($BDIR/*.queue)
+tot="${#allqueuefs[@]}"
+inc=$((tot/12))
+offset=0
+for ((x=0; x<11; x++)); do
+    queuefs=()
+    for ((i=0; i<inc; i++)); do
+        queuefs["$i"]="${allqueuefs["$((i + offset))"]}"
+    done
+    # pass array by named reference
+    getbluefs "$x" "${queuefs[@]}" &
     jobpids["$x"]="$!"
+    offset="$((offset + inc))"
 done
+queuefs=()
+for ((i=0; i<(tot-offset); i++)); do
+    queuefs["$i"]="${allqueuefs["$((i + offset))"]}"
+done
+getbluefs "$x" "${queuefs[@]}" &
+jobpids[11]="$!"
 wait
+
 cleanvt
