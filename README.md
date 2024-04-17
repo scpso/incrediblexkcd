@@ -1027,3 +1027,25 @@ previous versions. I have no idea what the selection/moderation process is.
 [Set Sail towards Adventure!](https://xkcd.com/2916/#xt=3&yt=39&v=566) |
 [Livin' on the edge](https://xkcd.com/2916/#xt=8&yt=9&v=133) |
 [Spiral](https://xkcd.com/2916/#xt=0&yt=27&v=368) |
+[kitty korner](https://xkcd.com/2916/#xt=7&yt=73&v=992) |
+[artisanal perfect filter](https://xkcd.com/2916/#xt=4&yt=73&v=989) |
+[The last arcade has closed forever](https://xkcd.com/2916/#xt=6&yt=73&v=991) |
+[ANOTHER LAW](https://xkcd.com/2916/#xt=11&yt=71&v=986) |
+[aw man](https://xkcd.com/2916/#xt=8&yt=74&v=1003) |
+[wind tunels](https://xkcd.com/2916/#xt=0&yt=73&v=987) |
+[homestar runner and strong bad](https://xkcd.com/2916/#xt=8&yt=73&v=993) |
+[the long way round](https://xkcd.com/2916/#xt=0&yt=74&v=996) |
+[Particle accelerator?](https://xkcd.com/2916/#xt=11&yt=72&v=983) |
+[XK Escher](https://xkcd.com/2916/#xt=3&yt=74&v=999) |
+[I'm not a very good juggler](https://xkcd.com/2916/#xt=2&yt=74&v=998) |
+[!yttik](https://xkcd.com/2916/#xt=4&yt=74&v=1000) |
+[disco party](https://xkcd.com/2916/#xt=1&yt=73&v=995) |
+[reasonable colour-sorter](https://xkcd.com/2916/#xt=6&yt=72&v=985) |
+[Will it sort?](https://xkcd.com/2916/#xt=11&yt=73&v=994) |
+[The crossroads](https://xkcd.com/2916/#xt=8&yt=72&v=984) |
+[selecta](https://xkcd.com/2916/#xt=3&yt=73&v=988) |
+[ψήφος](https://xkcd.com/2916/#xt=5&yt=73&v=990) |
+[return of the spider](https://xkcd.com/2916/#xt=7&yt=74&v=1002) |
+[Bunny paradise ](https://xkcd.com/2916/#xt=11&yt=71&v=982) |
+[Combine and Separate](https://xkcd.com/2916/#xt=5&yt=74&v=1001) |
+[recirculator](https://xkcd.com/2916/#xt=1&yt=74&v=997) |
