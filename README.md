@@ -1049,3 +1049,13 @@ previous versions. I have no idea what the selection/moderation process is.
 [Bunny paradise ](https://xkcd.com/2916/#xt=11&yt=71&v=982) |
 [Combine and Separate](https://xkcd.com/2916/#xt=5&yt=74&v=1001) |
 [recirculator](https://xkcd.com/2916/#xt=1&yt=74&v=997) |
+[inertial vs gravitational mass](https://xkcd.com/2916/#xt=9&yt=74&v=1007) |
+[Chaos sorter](https://xkcd.com/2916/#xt=10&yt=74&v=1011) |
+[Fan of Curves](https://xkcd.com/2916/#xt=0&yt=75&v=1012) |
+[curvaceous curves](https://xkcd.com/2916/#xt=7&yt=75&v=1008) |
+[Icarus](https://xkcd.com/2916/#xt=9&yt=73&v=1004) |
+[Gyratory system](https://xkcd.com/2916/#xt=10&yt=74&v=1010) |
+[Yellow is my favorite color](https://xkcd.com/2916/#xt=1&yt=75&v=1013) |
+[zipzopzap](https://xkcd.com/2916/#xt=11&yt=74&v=1009) |
+[The Turtle Moves](https://xkcd.com/2916/#xt=6&yt=74&v=1006) |
+[Safety First 🛡](https://xkcd.com/2916/#xt=10&yt=73&v=1005) |
