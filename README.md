@@ -1049,6 +1049,7 @@ previous versions. I have no idea what the selection/moderation process is.
 [Bunny paradise ](https://xkcd.com/2916/#xt=11&yt=71&v=982) |
 [Combine and Separate](https://xkcd.com/2916/#xt=5&yt=74&v=1001) |
 [recirculator](https://xkcd.com/2916/#xt=1&yt=74&v=997) |
+<<<<<<< Updated upstream
 [inertial vs gravitational mass](https://xkcd.com/2916/#xt=9&yt=74&v=1007) |
 [Chaos sorter](https://xkcd.com/2916/#xt=10&yt=74&v=1011) |
 [Fan of Curves](https://xkcd.com/2916/#xt=0&yt=75&v=1012) |
@@ -1059,3 +1060,157 @@ previous versions. I have no idea what the selection/moderation process is.
 [zipzopzap](https://xkcd.com/2916/#xt=11&yt=74&v=1009) |
 [The Turtle Moves](https://xkcd.com/2916/#xt=6&yt=74&v=1006) |
 [Safety First 🛡](https://xkcd.com/2916/#xt=10&yt=73&v=1005) |
+=======
+[The thingamajigger](https://xkcd.com/2916/#xt=10&yt=84&v=1129) |
+[probably deterministic parade](https://xkcd.com/2916/#xt=3&yt=77&v=1045) |
+[ohno](https://xkcd.com/2916/#xt=3&yt=79&v=1064) |
+[As the walls crumble](https://xkcd.com/2916/#xt=3&yt=75&v=1014) |
+[swat](https://xkcd.com/2916/#xt=8&yt=85&v=1141) |
+[Centrifugal Force Is Real (In A Rotating Frame Of Reference)](https://xkcd.com/2916/#xt=9&yt=86&v=1147) |
+[sorting](https://xkcd.com/2916/#xt=2&yt=86&v=1154) |
+[It fixes your mistakes.](https://xkcd.com/2916/#xt=8&yt=77&v=1048) |
+[Fan Fanatic](https://xkcd.com/2916/#xt=6&yt=78&v=1053) |
+[Premium Blend](https://xkcd.com/2916/#xt=11&yt=81&v=1093) |
+[Uncooperative red](https://xkcd.com/2916/#xt=2&yt=81&v=1085) |
+[MasterpieceifIdosaysomyself](https://xkcd.com/2916/#xt=9&yt=79&v=1071) |
+[Stability Test](https://xkcd.com/2916/#xt=9&yt=78&v=1050) |
+[Apologies to the next person](https://xkcd.com/2916/#xt=1&yt=80&v=1072) |
+[Electric Kittens](https://xkcd.com/2916/#xt=7&yt=82&v=1098) |
+[color winds](https://xkcd.com/2916/#xt=2&yt=77&v=1042) |
+[the altar](https://xkcd.com/2916/#xt=11&yt=83&v=1119) |
+[mass spectrometer](https://xkcd.com/2916/#xt=5&yt=83&v=1110) |
+[Hercules vs the hydra](https://xkcd.com/2916/#xt=11&yt=76&v=1022) |
+[BLUE Quality control by cat](https://xkcd.com/2916/#xt=1&yt=77&v=1038) |
+[red touches yellow, re-sort a fellow.](https://xkcd.com/2916/#xt=8&yt=82&v=1097) |
+[i warned you about the stairs](https://xkcd.com/2916/#xt=10&yt=77&v=1019) |
+[Stay in your lane](https://xkcd.com/2916/#xt=9&yt=75&v=1024) |
+[Just another sorter](https://xkcd.com/2916/#xt=8&yt=81&v=1091) |
+[Fan of Curves](https://xkcd.com/2916/#xt=0&yt=75&v=1012) |
+[fewer bonks than expected](https://xkcd.com/2916/#xt=5&yt=86&v=1151) |
+[prism pairs](https://xkcd.com/2916/#xt=10&yt=86&v=1146) |
+[Earth wind.. no fire](https://xkcd.com/2916/#xt=3&yt=84&v=1126) |
+[black hole sun](https://xkcd.com/2916/#xt=7&yt=77&v=1047) |
+[Spherical Harmonics](https://xkcd.com/2916/#xt=2&yt=78&v=1057) |
+[This is normal. Is this normal?](https://xkcd.com/2916/#xt=2&yt=76&v=1028) |
+[Galton Board](https://xkcd.com/2916/#xt=8&yt=78&v=1051) |
+[Boing lift separator](https://xkcd.com/2916/#xt=6&yt=79&v=1067) |
+[Overflow drains](https://xkcd.com/2916/#xt=7&yt=86&v=1149) |
+[The dragon!  The dragon!  The dragon!  The dragon! ...](https://xkcd.com/2916/#xt=1&yt=83&v=1106) |
+[Gravitic Sorter](https://xkcd.com/2916/#xt=5&yt=81&v=1088) |
+[Hungry Hungry Hippos](https://xkcd.com/2916/#xt=4&yt=79&v=1065) |
+[Cat wheel](https://xkcd.com/2916/#xt=6&yt=84&v=1127) |
+[Cat-Trifical Force](https://xkcd.com/2916/#xt=10&yt=78&v=1036) |
+[haphazard is a compliment](https://xkcd.com/2916/#xt=3&yt=85&v=1136) |
+[We're done here](https://xkcd.com/2916/#xt=10&yt=82&v=1096) |
+[Superfast crossing](https://xkcd.com/2916/#xt=8&yt=80&v=1081) |
+[dragonslayer](https://xkcd.com/2916/#xt=1&yt=81&v=1084) |
+[Pressure separator](https://xkcd.com/2916/#xt=8&yt=84&v=1132) |
+[oversimplified](https://xkcd.com/2916/#xt=3&yt=83&v=1108) |
+[Well we Save a Bundle By Using the Red Stream to Drive a Turbine](https://xkcd.com/2916/#xt=3&yt=80&v=1074) |
+[The Turtle Moves](https://xkcd.com/2916/#xt=6&yt=74&v=1006) |
+[4 streams](https://xkcd.com/2916/#xt=9&yt=81&v=1094) |
+[Icarus](https://xkcd.com/2916/#xt=9&yt=73&v=1004) |
+[magic cup](https://xkcd.com/2916/#xt=4&yt=81&v=1087) |
+[Could be worse](https://xkcd.com/2916/#xt=1&yt=82&v=1103) |
+[The siege](https://xkcd.com/2916/#xt=3&yt=78&v=1056) |
+[The hardest working cat in all the land](https://xkcd.com/2916/#xt=5&yt=84&v=1122) |
+[I am the Lorax, I speak for the trees](https://xkcd.com/2916/#xt=4&yt=77&v=1043) |
+[waning creativity, 2024 - Digital](https://xkcd.com/2916/#xt=11&yt=77&v=1023) |
+[i feel buoyant about this one](https://xkcd.com/2916/#xt=4&yt=80&v=1080) |
+[The Core (2003, colorized)](https://xkcd.com/2916/#xt=0&yt=86&v=1156) |
+[inertial vs gravitational mass](https://xkcd.com/2916/#xt=9&yt=74&v=1007) |
+[Home-Made Fusion Reactor](https://xkcd.com/2916/#xt=7&yt=76&v=1035) |
+[Bestagon with squirrel, bunny and kitty.](https://xkcd.com/2916/#xt=7&yt=84&v=1128) |
+[Doublesort](https://xkcd.com/2916/#xt=9&yt=83&v=1115) |
+[my cup runneth under](https://xkcd.com/2916/#xt=1&yt=79&v=1062) |
+[there's an eclipse but you still have to work](https://xkcd.com/2916/#xt=7&yt=79&v=1066) |
+[grinds my gears](https://xkcd.com/2916/#xt=0&yt=79&v=1060) |
+[all floating sorts](https://xkcd.com/2916/#xt=10&yt=75&v=1018) |
+[You will not go to space today](https://xkcd.com/2916/#xt=2&yt=85&v=1135) |
+[I lost a bonk, do you have it?](https://xkcd.com/2916/#xt=4&yt=76&v=1033) |
+[To Influence](https://xkcd.com/2916/#xt=9&yt=77&v=1046) |
+[Unite and divide](https://xkcd.com/2916/#xt=7&yt=80&v=1076) |
+[zoooooooooom](https://xkcd.com/2916/#xt=11&yt=85&v=1144) |
+[the wind in the pillows](https://xkcd.com/2916/#xt=8&yt=86&v=1148) |
+[Statistically Significant](https://xkcd.com/2916/#xt=4&yt=82&v=1101) |
+[monday morning brain scan](https://xkcd.com/2916/#xt=9&yt=80&v=1082) |
+[Wheels of fortune](https://xkcd.com/2916/#xt=5&yt=75&v=1017) |
+[luxury cats-only hotel](https://xkcd.com/2916/#xt=4&yt=78&v=1054) |
+[probably deterministic park](https://xkcd.com/2916/#xt=1&yt=86&v=1155) |
+[Maxwell's Daemon](https://xkcd.com/2916/#xt=4&yt=84&v=1123) |
+[Semi JUMP](https://xkcd.com/2916/#xt=11&yt=84&v=1130) |
+[Gravity assisted particle accelerator](https://xkcd.com/2916/#xt=0&yt=85&v=1133) |
+[three stage filter](https://xkcd.com/2916/#xt=11&yt=75&v=1021) |
+[Easypeasylemonsqueezy](https://xkcd.com/2916/#xt=6&yt=76&v=1034) |
+[i shall name it... "this marvelous device"!](https://xkcd.com/2916/#xt=0&yt=81&v=1083) |
+[there he is!](https://xkcd.com/2916/#xt=0&yt=80&v=1063) |
+[Three Yellow Crossovers](https://xkcd.com/2916/#xt=10&yt=81&v=1092) |
+[Don't mind the bird](https://xkcd.com/2916/#xt=6&yt=75&v=1025) |
+[the water pipes](https://xkcd.com/2916/#xt=2&yt=75&v=1015) |
+[Flippin' Magnets. How do they work?](https://xkcd.com/2916/#xt=11&yt=79&v=1068) |
+[Saboteur (or pushing the limits of cat hitboxes to potentially swat balls in adjacent machines)](https://xkcd.com/2916/#xt=11&yt=83&v=1121) |
+[pneumonoultramicroscopicsilicovolcanoconiosis is a word](https://xkcd.com/2916/#xt=1&yt=85&v=1134) |
+[Particle Motion](https://xkcd.com/2916/#xt=9&yt=85&v=1142) |
+[float like a butterfly, sink like a stone](https://xkcd.com/2916/#xt=11&yt=86&v=1145) |
+[that's not how you use them](https://xkcd.com/2916/#xt=8&yt=83&v=1114) |
+[batter up!](https://xkcd.com/2916/#xt=0&yt=76&v=1030) |
+[Red Mountain](https://xkcd.com/2916/#xt=11&yt=80&v=1077) |
+[surprisingly good filter](https://xkcd.com/2916/#xt=9&yt=84&v=1131) |
+[The factory](https://xkcd.com/2916/#xt=10&yt=76&v=1020) |
+[Sometimes a lil green gets in the red, it's okay. And vice versa, but science ain't perfect.](https://xkcd.com/2916/#xt=6&yt=83&v=1112) |
+[curvaceous curves](https://xkcd.com/2916/#xt=7&yt=75&v=1008) |
+[flight of the bumblebees](https://xkcd.com/2916/#xt=5&yt=78&v=1055) |
+[good job](https://xkcd.com/2916/#xt=5&yt=85&v=1138) |
+[it's probably](https://xkcd.com/2916/#xt=8&yt=76&v=1040) |
+[zoom](https://xkcd.com/2916/#xt=0&yt=78&v=1049) |
+[I'll take you roundabout](https://xkcd.com/2916/#xt=5&yt=76&v=1027) |
+[all the stuff i could've used](https://xkcd.com/2916/#xt=0&yt=77&v=1037) |
+[rabbits' 4-corners machine](https://xkcd.com/2916/#xt=11&yt=78&v=1026) |
+[Objective: 100% accuracy](https://xkcd.com/2916/#xt=7&yt=85&v=1140) |
+[Cat's Cradle](https://xkcd.com/2916/#xt=5&yt=82&v=1099) |
+[weelz within weelz](https://xkcd.com/2916/#xt=7&yt=81&v=1090) |
+[precarious](https://xkcd.com/2916/#xt=10&yt=85&v=1143) |
+[the premise of a very weird dystopian novel](https://xkcd.com/2916/#xt=2&yt=83&v=1107) |
+[yellow get multiple chances, just because](https://xkcd.com/2916/#xt=2&yt=84&v=1124) |
+[choose your own adventure](https://xkcd.com/2916/#xt=4&yt=75&v=1016) |
+[I'll Stop Making Railguns when the railguns stop being the best solution to every engineering challenge](https://xkcd.com/2916/#xt=10&yt=83&v=1116) |
+[that's them sorted...](https://xkcd.com/2916/#xt=4&yt=86&v=1152) |
+[troy](https://xkcd.com/2916/#xt=5&yt=79&v=1059) |
+[The Faucet](https://xkcd.com/2916/#xt=1&yt=84&v=1125) |
+[Is it some kind of magic?](https://xkcd.com/2916/#xt=8&yt=75&v=1031) |
+[Potato ](https://xkcd.com/2916/#xt=10&yt=80&v=1078) |
+[red/yellow feline fractionator](https://xkcd.com/2916/#xt=6&yt=85&v=1139) |
+[don't look for symbolism, i just like to see the balls float](https://xkcd.com/2916/#xt=0&yt=84&v=1120) |
+[leap of faith](https://xkcd.com/2916/#xt=9&yt=82&v=1095) |
+[RAGE AGAINST](https://xkcd.com/2916/#xt=6&yt=77&v=1041) |
+[nine lives](https://xkcd.com/2916/#xt=1&yt=78&v=1058) |
+[Why do we have all these fans, anyway?](https://xkcd.com/2916/#xt=0&yt=83&v=1105) |
+[Particle accelerator](https://xkcd.com/2916/#xt=3&yt=86&v=1153) |
+[Pareidolia](https://xkcd.com/2916/#xt=3&yt=81&v=1086) |
+[the Prisms did a good job, probably.](https://xkcd.com/2916/#xt=9&yt=76&v=1039) |
+[zipzopzap](https://xkcd.com/2916/#xt=11&yt=74&v=1009) |
+[layer sorter](https://xkcd.com/2916/#xt=10&yt=79&v=1070) |
+[not this way](https://xkcd.com/2916/#xt=7&yt=78&v=1052) |
+[dangerous crossing](https://xkcd.com/2916/#xt=5&yt=77&v=1044) |
+[byg-sort](https://xkcd.com/2916/#xt=3&yt=76&v=1032) |
+[bonkers](https://xkcd.com/2916/#xt=2&yt=79&v=1061) |
+[Hands free ](https://xkcd.com/2916/#xt=4&yt=85&v=1137) |
+[Cats playground](https://xkcd.com/2916/#xt=7&yt=83&v=1113) |
+[Gyratory system](https://xkcd.com/2916/#xt=10&yt=74&v=1010) |
+[The bunny observes](https://xkcd.com/2916/#xt=6&yt=82&v=1111) |
+[Brickout Blues](https://xkcd.com/2916/#xt=6&yt=80&v=1075) |
+[Narrow margins](https://xkcd.com/2916/#xt=2&yt=80&v=1073) |
+[Yellow is my favorite color](https://xkcd.com/2916/#xt=1&yt=75&v=1013) |
+[Chaos sorter](https://xkcd.com/2916/#xt=10&yt=74&v=1011) |
+[Singing in the rain](https://xkcd.com/2916/#xt=5&yt=80&v=1079) |
+[greens are a pain](https://xkcd.com/2916/#xt=8&yt=79&v=1069) |
+[professional pillow-fighting ring](https://xkcd.com/2916/#xt=11&yt=82&v=1118) |
+[Only sort if you have to](https://xkcd.com/2916/#xt=6&yt=86&v=1150) |
+[particle accelerator (too fast edition)](https://xkcd.com/2916/#xt=0&yt=82&v=1104) |
+[hopefully only one green at a time](https://xkcd.com/2916/#xt=11&yt=82&v=1117) |
+[emperor bun's wrath](https://xkcd.com/2916/#xt=6&yt=81&v=1089) |
+[Safety First 🛡](https://xkcd.com/2916/#xt=10&yt=73&v=1005) |
+[6-way intersection](https://xkcd.com/2916/#xt=2&yt=82&v=1102) |
+[submission denied](https://xkcd.com/2916/#xt=4&yt=83&v=1109) |
+[Berghain](https://xkcd.com/2916/#xt=1&yt=76&v=1029) |
+[eeeeeeeeeeeee](https://xkcd.com/2916/#xt=3&yt=82&v=1100) |
