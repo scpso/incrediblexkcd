@@ -1279,3 +1279,35 @@ previous versions. I have no idea what the selection/moderation process is.
 [Set Sail towards Adventure!](https://xkcd.com/2916/#xt=3&yt=39&v=566) |
 [Livin' on the edge](https://xkcd.com/2916/#xt=8&yt=9&v=133) |
 [Spiral](https://xkcd.com/2916/#xt=0&yt=27&v=368) |
+[unessacarily complex yet effective](https://xkcd.com/2916/#xt=3&yt=95&v=1265) |
+[I can't believe Mr. Mittens still prefers to do things manually.](https://xkcd.com/2916/#xt=5&yt=94&v=1248) |
+[Halo](https://xkcd.com/2916/#xt=0&yt=95&v=1258) |
+[Don't Boop The Snoot](https://xkcd.com/2916/#xt=11&yt=94&v=1242) |
+[red vs blue](https://xkcd.com/2916/#xt=5&yt=95&v=1261) |
+[hydraulic shock absorber for errant red particles](https://xkcd.com/2916/#xt=9&yt=94&v=1244) |
+[charge!](https://xkcd.com/2916/#xt=2&yt=95&v=1259) |
+[Ahh, Nature!](https://xkcd.com/2916/#xt=6&yt=95&v=1255) |
+[Hex](https://xkcd.com/2916/#xt=6&yt=93&v=1238) |
+[turbosort](https://xkcd.com/2916/#xt=2&yt=93&v=1236) |
+[plumbing](https://xkcd.com/2916/#xt=3&yt=94&v=1250) |
+[you'd think it'd be easier to get green balls to move](https://xkcd.com/2916/#xt=8&yt=93&v=1240) |
+[squirrel projector](https://xkcd.com/2916/#xt=8&yt=94&v=1245) |
+[kaleidoscope](https://xkcd.com/2916/#xt=10&yt=94&v=1243) |
+[help i can't keep this up for much longer](https://xkcd.com/2916/#xt=9&yt=93&v=1235) |
+[iF (color==BLue)](https://xkcd.com/2916/#xt=6&yt=94&v=1247) |
+[you and me, and kitty makes three](https://xkcd.com/2916/#xt=7&yt=95&v=1262) |
+[skip, bounce, and slide](https://xkcd.com/2916/#xt=10&yt=93&v=1241) |
+[Antigravity](https://xkcd.com/2916/#xt=4&yt=94&v=1249) |
+[TREBUCHET](https://xkcd.com/2916/#xt=1&yt=95&v=1254) |
+[Hell is a place on earth](https://xkcd.com/2916/#xt=7&yt=93&v=1239) |
+[banana splits at the black hole laundrette](https://xkcd.com/2916/#xt=7&yt=94&v=1246) |
+[definitely a maybe](https://xkcd.com/2916/#xt=10&yt=95&v=1264) |
+[sort it out](https://xkcd.com/2916/#xt=4&yt=95&v=1260) |
+[Robert'); DROP TABLE Students;--](https://xkcd.com/2916/#xt=9&yt=95&v=1263) |
+[bogosort](https://xkcd.com/2916/#xt=0&yt=94&v=1253) |
+[puhoy](https://xkcd.com/2916/#xt=8&yt=95&v=1257) |
+[cannons](https://xkcd.com/2916/#xt=2&yt=94&v=1251) |
+[Bounce filters are unreliable](https://xkcd.com/2916/#xt=11&yt=95&v=1256) |
+[round the back way](https://xkcd.com/2916/#xt=11&yt=93&v=1234) |
+[Helm of determination](https://xkcd.com/2916/#xt=1&yt=94&v=1252) |
+[Mohi](https://xkcd.com/2916/#xt=5&yt=93&v=1237) |
