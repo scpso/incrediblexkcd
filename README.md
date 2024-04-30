@@ -1311,3 +1311,20 @@ previous versions. I have no idea what the selection/moderation process is.
 [round the back way](https://xkcd.com/2916/#xt=11&yt=93&v=1234) |
 [Helm of determination](https://xkcd.com/2916/#xt=1&yt=94&v=1252) |
 [Mohi](https://xkcd.com/2916/#xt=5&yt=93&v=1237) |
+[bonk](https://xkcd.com/2916/#xt=4&yt=96&v=1270) |
+[Wimdy](https://xkcd.com/2916/#xt=8&yt=97&v=1281) |
+[Don't tap the glass](https://xkcd.com/2916/#xt=5&yt=96&v=1272) |
+[Scientific progress goes "boink"](https://xkcd.com/2916/#xt=6&yt=97&v=1282) |
+[magnetic pathway](https://xkcd.com/2916/#xt=8&yt=96&v=1274) |
+[ ](https://xkcd.com/2916/#xt=10&yt=97&v=1279) |
+[kaleidoscope](https://xkcd.com/2916/#xt=11&yt=96&v=1277) |
+[watch and learn kitten army!!](https://xkcd.com/2916/#xt=10&yt=96&v=1276) |
+[space elevator](https://xkcd.com/2916/#xt=0&yt=96&v=1266) |
+[Float like a butterfly; sink like a brick](https://xkcd.com/2916/#xt=3&yt=96&v=1269) |
+[Floating Operation](https://xkcd.com/2916/#xt=1&yt=96&v=1267) |
+[The particle accelerator better than all the rest ](https://xkcd.com/2916/#xt=9&yt=96&v=1275) |
+[chaos](https://xkcd.com/2916/#xt=2&yt=96&v=1268) |
+[please stop holding meetings in the fan rooms, the squirrel can still see all of them](https://xkcd.com/2916/#xt=11&yt=97&v=1278) |
+["I don't Think The Rabbit should Be That Close to that thing...."](https://xkcd.com/2916/#xt=6&yt=96&v=1271) |
+[that one blue marble](https://xkcd.com/2916/#xt=9&yt=97&v=1280) |
+[sensible and affordable transportation for balls](https://xkcd.com/2916/#xt=7&yt=96&v=1273) |
