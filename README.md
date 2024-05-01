@@ -1349,3 +1349,14 @@ previous versions. I have no idea what the selection/moderation process is.
 [follow the arrows](https://xkcd.com/2916/#xt=0&yt=97&v=1287) |
 [Cat-tic-ball](https://xkcd.com/2916/#xt=3&yt=97&v=1289) |
 [If I do enough of these one will get in](https://xkcd.com/2916/#xt=5&yt=98&v=1296) |
+[a series of unfortunate bounces](https://xkcd.com/2916/#xt=7&yt=99&v=1310) |
+[Unexpected Behavior](https://xkcd.com/2916/#xt=1&yt=99&v=1308) |
+[Kitty makes sure](https://xkcd.com/2916/#xt=3&yt=99&v=1305) |
+[why are you mad, I got you a cat tree](https://xkcd.com/2916/#xt=0&yt=99&v=1307) |
+[If at first you don't succeed - send the ball round to try again](https://xkcd.com/2916/#xt=2&yt=99&v=1306) |
+[Once in a while, the cat is permitted to mess things up, as a treat](https://xkcd.com/2916/#xt=9&yt=99&v=1312) |
+[The cats are tired try again later](https://xkcd.com/2916/#xt=6&yt=99&v=1309) |
+[Could I have done it simpler? Probably. DId I? No, why would I do that?](https://xkcd.com/2916/#xt=11&yt=99&v=1314) |
+[contraptionator](https://xkcd.com/2916/#xt=8&yt=99&v=1311) |
+[LOOK MA, NO FANS (SPARE BUNNIES)](https://xkcd.com/2916/#xt=10&yt=99&v=1313) |
+[the height of human progress](https://xkcd.com/2916/#xt=4&yt=99&v=1304) |
