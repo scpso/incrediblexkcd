@@ -1328,3 +1328,24 @@ previous versions. I have no idea what the selection/moderation process is.
 ["I don't Think The Rabbit should Be That Close to that thing...."](https://xkcd.com/2916/#xt=6&yt=96&v=1271) |
 [that one blue marble](https://xkcd.com/2916/#xt=9&yt=97&v=1280) |
 [sensible and affordable transportation for balls](https://xkcd.com/2916/#xt=7&yt=96&v=1273) |
+[recycle, reuse, rebound, redirect, regret](https://xkcd.com/2916/#xt=10&yt=98&v=1302) |
+[It is almost too easy to separate Green and Yellow](https://xkcd.com/2916/#xt=8&yt=98&v=1299) |
+[Behold my Psychic Powers](https://xkcd.com/2916/#xt=4&yt=98&v=1295) |
+[Furr Fight](https://xkcd.com/2916/#xt=4&yt=97&v=1286) |
+[bounce](https://xkcd.com/2916/#xt=11&yt=98&v=1300) |
+[Auto-sorting pillows](https://xkcd.com/2916/#xt=2&yt=98&v=1293) |
+[Color inkjet](https://xkcd.com/2916/#xt=7&yt=97&v=1284) |
+[Bubblesort](https://xkcd.com/2916/#xt=5&yt=99&v=1303) |
+[Don't Touch the Hammer!](https://xkcd.com/2916/#xt=4&yt=97&v=1283) |
+[Form Follows Function](https://xkcd.com/2916/#xt=0&yt=98&v=1291) |
+[Спасибо нет](https://xkcd.com/2916/#xt=7&yt=98&v=1298) |
+[Whoops](https://xkcd.com/2916/#xt=1&yt=98&v=1292) |
+[...and here is the museum's newest exhibit: the staff of infinite magnitism ](https://xkcd.com/2916/#xt=1&yt=97&v=1288) |
+[When a green knocks you off course, you can always try again!](https://xkcd.com/2916/#xt=2&yt=97&v=1290) |
+[:)](https://xkcd.com/2916/#xt=6&yt=98&v=1297) |
+[the s.s. bunsmuggler](https://xkcd.com/2916/#xt=5&yt=97&v=1285) |
+[Separator](https://xkcd.com/2916/#xt=9&yt=98&v=1301) |
+[It works except when it doesn't](https://xkcd.com/2916/#xt=3&yt=98&v=1294) |
+[follow the arrows](https://xkcd.com/2916/#xt=0&yt=97&v=1287) |
+[Cat-tic-ball](https://xkcd.com/2916/#xt=3&yt=97&v=1289) |
+[If I do enough of these one will get in](https://xkcd.com/2916/#xt=5&yt=98&v=1296) |
