@@ -1360,3 +1360,37 @@ previous versions. I have no idea what the selection/moderation process is.
 [contraptionator](https://xkcd.com/2916/#xt=8&yt=99&v=1311) |
 [LOOK MA, NO FANS (SPARE BUNNIES)](https://xkcd.com/2916/#xt=10&yt=99&v=1313) |
 [the height of human progress](https://xkcd.com/2916/#xt=4&yt=99&v=1304) |
+[Clean Up on Aisle λ](https://xkcd.com/2916/#xt=2&yt=100&v=1323) |
+[⚠️ lawsuit pending ⚠️](https://xkcd.com/2916/#xt=4&yt=100&v=1315) |
+[Fans work both ways](https://xkcd.com/2916/#xt=2&yt=102&v=1348) |
+[yellow plays twice. just like in chess.](https://xkcd.com/2916/#xt=1&yt=102&v=1338) |
+[four way sort](https://xkcd.com/2916/#xt=8&yt=100&v=1319) |
+[things](https://xkcd.com/2916/#xt=10&yt=100&v=1317) |
+[Redundant x3 w/recycle](https://xkcd.com/2916/#xt=8&yt=102&v=1344) |
+[meticulous](https://xkcd.com/2916/#xt=9&yt=102&v=1345) |
+[what's wrong honey, you haven't touched your greens](https://xkcd.com/2916/#xt=7&yt=100&v=1320) |
+[Wall walking](https://xkcd.com/2916/#xt=8&yt=101&v=1335) |
+[Moleculer Sieve](https://xkcd.com/2916/#xt=0&yt=101&v=1328) |
+[it's cats all the way down](https://xkcd.com/2916/#xt=2&yt=101&v=1329) |
+[put it together and let it sort itself out](https://xkcd.com/2916/#xt=0&yt=100&v=1325) |
+[They keep hitting me in the head!](https://xkcd.com/2916/#xt=10&yt=102&v=1347) |
+[singin' and dancing in the rain](https://xkcd.com/2916/#xt=4&yt=101&v=1331) |
+[Beware the chaotic stick of doom](https://xkcd.com/2916/#xt=5&yt=100&v=1326) |
+[comi2 285: wikipedian protester](https://xkcd.com/2916/#xt=11&yt=101&v=1337) |
+[Awful sorter #631: Build a bounce sorter, they said. It'll be fun, they said.](https://xkcd.com/2916/#xt=7&yt=101&v=1334) |
+[Australian Cat Tower](https://xkcd.com/2916/#xt=11&yt=100&v=1316) |
+[Fun With AntiGravity](https://xkcd.com/2916/#xt=6&yt=100&v=1321) |
+[sword sorter](https://xkcd.com/2916/#xt=5&yt=101&v=1332) |
+[x-TREME ball pit](https://xkcd.com/2916/#xt=10&yt=101&v=1346) |
+[cmon, let the cats have some fun](https://xkcd.com/2916/#xt=1&yt=101&v=1327) |
+[bouncy fans](https://xkcd.com/2916/#xt=6&yt=102&v=1341) |
+[This is where we'll install the processing area for the other types of balls if we get any](https://xkcd.com/2916/#xt=9&yt=101&v=1336) |
+[Whee!!!](https://xkcd.com/2916/#xt=8&yt=102&v=1343) |
+[mix 'em well](https://xkcd.com/2916/#xt=3&yt=100&v=1322) |
+[The order of the sword-riding cats](https://xkcd.com/2916/#xt=3&yt=101&v=1330) |
+[Contactless Delivery](https://xkcd.com/2916/#xt=6&yt=101&v=1333) |
+[nothing suspicious is going on here](https://xkcd.com/2916/#xt=9&yt=100&v=1318) |
+[protect your data with the new airgap! (air co is not responsible for any damage caused by relativistic particles](https://xkcd.com/2916/#xt=4&yt=102&v=1339) |
+[arm the cat-annon!](https://xkcd.com/2916/#xt=7&yt=102&v=1342) |
+[why are you dividing them into two streams?](https://xkcd.com/2916/#xt=5&yt=102&v=1340) |
+[Katzen arbeiten für grün](https://xkcd.com/2916/#xt=1&yt=100&v=1324) |
