@@ -30,15 +30,12 @@ CSV='incrediblexkcd.csv'
 PFILE='puzzle.json'
 MDIR='machine'
 BDIR='folio'
-
-# hard reset data by passing arg --reset
-if [[ "$*" =~ --reset ]]; then
-    rm "$CSV" 2>/dev/null
-    rm "$PFILE" 2>/dev/null
-    rm -r "$MDIR" 2>/dev/null
-    rm -r "$BDIR" 2>/dev/null
-fi
-
+JOBS=12
+USAGE="$(printf 'getincrediblexkcd
+  --jobs [NUM]  how many parallel jobs to run (default %s)
+  --reset       delete all data and start from scratch
+  --start [NUM] which version of the machine to start from (default 0)
+  ' "$JOBS")"
 DEPS=(curl jq)
 for dep in "${DEPS[@]}"; do
     if ! command -v "$dep" >/dev/null; then
@@ -50,134 +47,94 @@ for dep in "${DEPS[@]}"; do
 done
 
 getmachs() {
-    local min max x n v machf
-    min="$1"
-    max="$2"
-    x="$3"
-
+    local n machns min max machn v machf nullcount x y id bluef queuef lockf link
     # number of rows to jump down to display progress for this job
-    n="$((x+1))"
+    n="$1"
+    n="$((n+1))"
 
-    for ((v=min; v<=max; v++)); do
+    machns=("$@")
+    min=1 #start at 1 because 0 is $1
+    max="${#machns[@]}"
+
+    for ((machn=min ; machn<max ; machn++)); do
+        v="${machns["$machn"]}"
         machf="$MDIR/$v.json"
-        if [ -f "$machf" ]; then
-            continue
+        if [ ! -f "$machf" ]; then
+
+            # {n}E -> move cursor down {n} lines
+            # 2K -> clears line
+            # 0m -> normal color
+            # 5m -> slow blink
+            # 32m -> green color
+            # 0m -> normal color (no blinking
+            # {n}F -> move cursor up {n} lines
+            printf '\033[%sE\033[2K\033[0m%s \033[5m\033[32mdownloading...\033[0m\033[%sF' "$n" "$machf" "$n"
+
+            curl -m 10 -SsL "$API/machine/$v" > "$machf"
         fi
 
         # {n}E -> move cursor down {n} lines
         # 2K -> clears line
-        # 33m -> orange color
         # 0m -> normal color
         # 5m -> slow blink
-        # 32m -> green color
+        # 33m -> orange color
         # 0m -> normal color (no blinking
         # {n}F -> move cursor up {n} lines
-        printf '\033[%sE\033[2K\033[33mmachine: \033[0m%s \033[5m\033[32mdownloading...\033[0m\033[%sF' "$n" "$machf" "$n"
+        printf '\033[%sE\033[2K\033[0m%s \033[5m\033[33mprocessing...\033[0m\033[%sF' "$n" "$machf" "$n"
 
-        curl -m 10 -SsL "$API/machine/$v" > "$machf"
-    done
-    # {n}E -> move cursor down {n} lines
-    # 2K -> clears line
-    # 33m -> orange color
-    # 0m -> normal color
-    # {n}F -> move cursor up {n} lines
-    printf '\033[%sE\033[2K\033[33mdone downloading machine files\033[0m\033[%sF' "$n" "$n"
-}
+        nullcount=0
+        x=0
+        y=0
+        for id in $(jq ".grid[].[]" "$machf" 2>/dev/null | sed s/\"//g); do
+            if [ -z "$id" ] || [ "$id" = "null" ]; then
+                nullcount="$((nullcount+1))"
+                # hardcode limit of 36 consecutive nulls to break.
+                if [ "$nullcount" -gt 36 ]; then
+                    break
+                fi
+            else
+                nullcount=0
+                bluef="$BDIR/$id.json"
+                queuef="$BDIR/$id.queue"
+                lockf="$BDIR/$id.lock"
+                link="$URL"'xt='"$x"'&yt='"$y"'&v='"$v"
 
-queueblues() {
-    local machf x y n mach nullcount id bluef queuef link
-    machf="$1"
-    x="$2"
-    y=0
+                if ! [ -f "$bluef" ]; then
+                    # prevent race with other jobs by using lockf as semaphore
+                    printf '%s\n' "$n" >> "$lockf"
+                    if [ "$(head -n 1 "$lockf")" = "$n" ]; then
+                        # {n}E -> move cursor down {n} lines
+                        # 2K -> clears line
+                        # 0m -> normal color
+                        # 5m -> slow blink
+                        # 32m -> green color
+                        # 0m -> normal color (no blinking
+                        # {n}F -> move cursor up {n} lines
+                        printf '\033[%sE\033[2K\033[0m%s %s \033[5m\033[32mdownloading...\033[0m\033[%sF' "$n" "$machf" "$id" "$n"
+                        curl -m 10 -SsL "$API/folio/$id" > "$queuef"
 
-    # number of rows to jump down to display progress for this job
-    n="$((x+1))"
+                        submittedAt="$(jq .blueprint.submittedAt "$queuef")"
+                        # correct double quote escaping for .csv
+                        title="$(jq .blueprint.title "$queuef" | sed 's/\\"/""/g')"
+                        printf '"%s","%s",%s,%s\n' "$id" "$link" "$submittedAt" "$title" >> "$CSV"
 
-    nullcount=0
-
-    for id in $(jq ".grid[].[$x]" "$machf" 2>/dev/null | sed s/\"//g); do
-        if [ -z "$id" ] || [ "$id" = "null" ]; then
-            nullcount="$((nullcount+1))"
-            # hardcode limit of 4 consecutive nulls to break. Since we're
-            # parallelising over x values, these are vertically consecutive
-            # null values in a single column
-            if [ "$nullcount" -gt 4 ]; then
-                break
-            fi
-
-            # {n}E -> move cursor down {n} lines
-            # 2K -> clears line
-            # 33m -> orange color
-            # 0m -> normal color
-            # {n}F -> move cursor up {n} lines
-            printf '\033[%sE\033[2K\033[33mblueprint: \033[0mnull\033[%sF' "$n" "$n"
-        else
-            nullcount=0
-            bluef="$BDIR/$id.json"
-            queuef="$BDIR/$id.queue"
-            link="$URL"'xt='"$x"'&yt='"$y"'&v='"$v"
-
-            # if we don't have this file of it doesn't have expected contents
-            if [ ! -f "$bluef" ] || [ -z "$(jq .blueprint.puzzle "$bluef")" ]; then
-                if [ ! -f "$queuef" ]; then
-                    printf '%s %s\n' "$id" "$link" > "$queuef"
+                        mv "$queuef" "$bluef"
+                    fi
                 fi
             fi
-
-            # {n}E -> move cursor down {n} lines
-            # 2K -> clears line
-            # 33m -> orange color
-            # 0m -> normal color
-            # {n}F -> move cursor up {n} lines
-            printf '\033[%sE\033[2K\033[33mblueprint: \033[0m%s\033[%sF' "$n" "$id" "$n"
-        fi
-        y=$((y+1))
+            x=$((x+1))
+            if [ "$x" -eq 12 ]; then
+                x=0
+                y=$((y+1))
+            fi
+        done
     done
-}
-
-getbluefs() {
-    local x queuefs queuef itms id link bluef submittedAt title
-    x="$1"
-    queuefs=("$@")
-    # remove x argument, assigned above, from function arguments - remaining
-    # elements are an array of queue files
-    unset "queuefs[0]"
-
-    for queuef in "${queuefs[@]}"; do
-        itms=( $(cat "$queuef") )
-        id="${itms[0]}"
-        link="${itms[1]}"
-
-        # number of rows to jump down to display progress for this job
-        n="$((x+1))"
-
-        bluef="$BDIR/$id.json"
-        # {n}E -> move cursor down {n} lines
-        # 2K -> clears line
-        # 33m -> orange color
-        # 0m -> normal color
-        # 5m -> slow blink
-        # 32m -> green color
-        # 0m -> normal color (no blinking
-        # {n}F -> move cursor up {n} lines
-        printf '\033[%sE\033[2K\033[33mblueprint: \033[0m%s \033[5m\033[32mdownloading...\033[0m\033[%sF' "$n" "$id" "$n"
-        curl -m 10 -SsL "$API/folio/$id" > "$bluef"
-
-        submittedAt="$(jq .blueprint.submittedAt "$bluef")"
-        # correct double quote escaping for .csv
-        title="$(jq .blueprint.title "$bluef" | sed 's/\\"/""/g')"
-
-        printf '"%s","%s",%s,%s\n' "$id" "$link" "$submittedAt" "$title" >> "$CSV"
-
-        rm "$queuef"
-    done
-
     # {n}E -> move cursor down {n} lines
     # 2K -> clears line
     # 33m -> orange color
     # 0m -> normal color
     # {n}F -> move cursor up {n} lines
-    printf '\033[%sE\033[2K\033[33mdone downloading blueprint files\033[0m\033[%sF' "$n" "$n"
+    printf '\033[%sE\033[2K\033[33mdone processing machine files\033[0m\033[%sF' "$n" "$n"
 }
 
 cleanvt() {
@@ -186,33 +143,111 @@ cleanvt() {
             kill "$pid" 2>/dev/null
         fi
     done
-    for ((k=0 ; k < 12 ; k++)); do
+    rm $BDIR/*.lock 2>/dev/null
+    for ((k=0 ; k < "$jobsn" ; k++)); do
         # 1E -> move cursor down 1 lines
         # 2K -> clears line
         printf '\033[1E\033[2K'
     done
-    # 12F -> move cursor up 12 lines
+    # %sF -> move cursor up %s lines
     # 0m -> normal color
     # ?25h -> show cursor
-    printf '\033[12F\033[0m\033[?25h'
+    printf '\033[%sF\033[0m\033[?25h' "$jobsn"
 }
 
 trap 'cleanvt; printf "^C\n"; exit 130' INT
 
-# add 14 rows for displaying progress
-# line 1: current machine --> static, will not be cleared
-# line 2: machine currently being processed --> erased when script quits
-# line 3-14: parallel blueprint jobs --> erased when script quits
-printf '\n\n\n\n\n\n\n\n\n\n\n\n\n'
+# CLI
+jobscalled=''
+jobsn=''
+startcalled=''
+startn=''
+reset=''
+
+args=("$@")
+argn="${#args[@]}"
+for ((n=0 ; n<argn ; n++)); do
+    arg="${args[$n]}"
+    if [ "$arg" = '--help' ] || [ "$arg" = '-h' ]; then
+        printf '%s\n' "$USAGE"
+        exit 0
+    elif [ -z "$jobsn" ] && [ -n "$jobscalled" ] && [ "$jobscalled" -ge 0 ] && [ "$n" -eq $((jobscalled + 1)) ]; then
+        # collect numeric argument
+        jobsn="$(printf '%s' "$arg" | sed -nE 's/^([0-9]+)$/\1/p')"
+        if [ -z "$jobsn" ]; then
+            printf 'Invalid arg: %s\ntry --help\n' "$arg"
+            exit 2
+        fi
+    elif [ "$arg" = '--jobs' ]; then
+        jobscalled=$n
+    elif [[ "$arg" =~ --jobs* ]]; then
+        jobscalled=$n
+        # collect numeric argument
+        jobsn="$(printf '%s' "$arg" | sed -nE 's/^--jobs[= ]?([0-9]+)$/\1/p')"
+        if [ -z "$jobsn" ]; then
+            printf 'Invalid arg: %s\ntry --help\n' "$arg"
+            exit 2
+        fi
+    elif [ "$arg" = "--reset" ]; then
+        reset=1
+    elif [ -z "$startn" ] && [ -n "$startcalled" ] && [ "$startcalled" -ge 0 ] && [ "$n" -eq $((startcalled + 1)) ]; then
+        # collect numeric argument
+        startn="$(printf '%s' "$arg" | sed -nE 's/^([0-9]+)$/\1/p')"
+        if [ -z "$startn" ]; then
+            printf 'Invalid arg: %s\ntry --help\n' "$arg"
+            exit 2
+        fi
+    elif [ "$arg" = '--start' ]; then
+        startcalled=$n
+    elif [[ "$arg" =~ --start* ]]; then
+        startcalled=$n
+        # collect numeric argument
+        startn="$(printf '%s' "$arg" | sed -nE 's/^--start[= ]?([0-9]+)$/\1/p')"
+        if [ -z "$startn" ]; then
+            printf 'Invalid arg: %s\ntry --help\n' "$arg"
+            exit 2
+        fi
+    else
+        printf 'Invalid arg: %s\ntry --help\n' "$arg"
+        exit 2
+    fi
+done
+
+if [ "$reset" -gt 0 ]; then
+    rm "$CSV" 2>/dev/null
+    rm "$PFILE" 2>/dev/null
+    rm -r "$MDIR" 2>/dev/null
+    rm -r "$BDIR" 2>/dev/null
+fi
+
+[ -z "$jobsn" ] && jobsn="$JOBS"
+[ -z "$startn" ] && startn=0
+
+# add rows for displaying progress
+# line 0: current machine --> static, will not be cleared
+# remaining lines for parallel jobs --> erased when script quits
+for ((k=0 ; k <= "$jobsn" ; k++)); do
+    printf '\n'
+done
 
 # ?25l -> hides cursor
-# 13F -> move cursor up 13 lines
+# %sF -> move cursor up %s lines
 # 2K -> clears line
 # 33m -> orange color
 # 5m -> slow blink
 # 32m -> green color
 # 0m -> normal color (no blinking)
-printf '\033[?25l\033[13F\033[2K\033[33mcurrent published machine version: \033[5m\033[32mdownloading...\033[0m'
+printf '\033[?25l\033[%sF\033[2K\033[33mcurrent published machine version:\033[0m' "$((jobsn+1))"
+
+# we put this flashing content on a line that will be cleared on sigint to
+# prevent flashing content staying in terminal
+# 1E -> move cursor down 1 line
+# 5m -> slow blink
+# 32m -> green color
+# 0m -> normal color (no blinking)
+# 1F -> move cursor up 1 line
+printf '\033[1E\033[5m\033[32mdownloading...\033[0m\033[1F'
+
 current=$(curl -SsL "$API/machine/current" | jq .version)
 curl -m 10 -SsL "$API/puzzle" > "$PFILE"
 
@@ -221,8 +256,6 @@ curl -m 10 -SsL "$API/puzzle" > "$PFILE"
 # 33m -> orange color
 # 0m -> normal color
 printf '\033[2K\033[1G\033[33mcurrent published machine version: \033[0m%s' "$current"
-# down one line
-printf '\n'
 
 [ -d "$MDIR" ] || mkdir -p "$MDIR"
 [ -d "$BDIR" ] || mkdir -p "$BDIR"
@@ -233,65 +266,16 @@ fi
 
 jobpids=()
 
-# 2K -> clears line
-# 1G -> move cursor to 1st column in line
-# 33m -> orange color
-# 0m -> normal color
-printf '\033[2K\033[1G\033[33mfetching machine files:\033[0m'
-
-min=0
-inc=$((current/12))
-for ((x=0; x<11; x++)); do
-    getmachs "$min" "$((min+inc))" "$x" &
-    jobpids["$x"]="$!"
-    min="$((min+inc+1))"
-done
-getmachs "$min" "$current" 11 &
-jobpids[11]="$!"
-wait
-
-for ((v=0; v<=current; v++)); do
-    machf="$MDIR/$v.json"
-
-    # 2K -> clears line
-    # 1G -> move cursor to 1st column in line
-    # 33m -> orange color
-    # 0m -> normal color
-    printf '\033[2K\033[1G\033[33mprocessing machine version: \033[0m%s' "$machf"
-
-    for ((x=0; x<12; x++)); do
-        queueblues "$machf" "$x" &
-        jobpids["$x"]="$!"
+for ((x=0; x<jobsn; x++)); do
+    machns=()
+    for ((n=startn; n<=current; n++)); do
+        if [ "$((n%jobsn - x))" -eq 0 ]; then
+            machi="${#machns[@]}"
+            machns[machi]=$n
+        fi
     done
-    wait
-done
-
-# 2K -> clears line
-# 1G -> move cursor to 1st column in line
-# 33m -> orange color
-# 0m -> normal color
-printf '\033[2K\033[1G\033[33mfetching blueprint files:\033[0m'
-
-allqueuefs=($BDIR/*.queue)
-tot="${#allqueuefs[@]}"
-inc=$((tot/12))
-offset=0
-for ((x=0; x<11; x++)); do
-    queuefs=()
-    for ((i=0; i<inc; i++)); do
-        queuefs["$i"]="${allqueuefs["$((i + offset))"]}"
-    done
-    # pass array by named reference
-    getbluefs "$x" "${queuefs[@]}" &
+    getmachs "$x" "${machns[@]}" &
     jobpids["$x"]="$!"
-    offset="$((offset + inc))"
 done
-queuefs=()
-for ((i=0; i<(tot-offset); i++)); do
-    queuefs["$i"]="${allqueuefs["$((i + offset))"]}"
-done
-getbluefs "$x" "${queuefs[@]}" &
-jobpids[11]="$!"
 wait
-
 cleanvt
