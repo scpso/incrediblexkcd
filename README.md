@@ -1394,3 +1394,6 @@ previous versions. I have no idea what the selection/moderation process is.
 [arm the cat-annon!](https://xkcd.com/2916/#xt=7&yt=102&v=1342) |
 [why are you dividing them into two streams?](https://xkcd.com/2916/#xt=5&yt=102&v=1340) |
 [Katzen arbeiten für grün](https://xkcd.com/2916/#xt=1&yt=100&v=1324) |
+[It's hard to accelerate Greens](https://xkcd.com/2916/#xt=3&yt=102&v=1349) |
+[quivering whiskers](https://xkcd.com/2916/#xt=11&yt=102&v=1350) |
+[Classic bread and butter gravity sort -P](https://xkcd.com/2916/#xt=0&yt=102&v=1351) |
