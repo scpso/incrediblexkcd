@@ -4,6 +4,17 @@ A celebration of xkcd comic 2916: [xkcd.com/2916](https://xkcd.com/2916)
 
 ![Machine](https://imgs.xkcd.com/comics/machine_2x.png)
 
+If you're just here to search for published submissions, have a look at the
+**[Permalinks](#Permalinks)** section at the bottom of this readme, or the file
+[incrediblexkcd.csv](/incrediblexkcd.csv) which contains the ids, permalinks,
+submission dates (in UTC timezone), and titles of all blueprints that have been
+published on [xkcd.com](https://xkcd.com/2916).
+
+I found myself wondering if any of my submissions have been published (they
+haven't) and wound up writing a small script to ingest the published data. My
+best submission was called 'boing boom tschak' and, naturally, depicted
+Kraftwerk on stage replete with their signature lightshow.
+
 Note that I have zero affiliation with xkcd or Randall Munroe (I invited him
 to my engagement party in 2015 but he didn't come) and all original work of
 xkcd belongs to him.
@@ -19,29 +30,24 @@ discussion who got me started with the api endpoints by sharing some
 observations from users on
 [https://euphoria.leet.nu/room/xkcd/](https://euphoria.leet.nu/room/xkcd/).
 
-I found myself wondering if any of my submissions have been published (they
-haven't) and wound up writing a small script to ingest the published data. My
-best submission was called 'boing boom tschack' and, naturally, depicted
-Kraftwerk on stage replete with their signature lightshow.
+Feel free to run the bash script [getincrediblexkcd.sh](/getincrediblexkcd.sh)
+yourself. It takes me about 3 minutes to run from scratch for ~1300 machines
+(in which the bottleneck is the nearly ~3000 curl calls to download each
+individual file), and 25 seconds to reprocess the same ~1300 machines if the
+source files are already downloaded. You can halt the script at any time by
+just pressing `CTRL-C` to send a SIGINT and it *should* exit gracefully. When
+you run the script again you can use the argument `--reset` to delete all data
+and start from scratch, or otherwise it should nominally pick up where it left
+off. It also takes aruments `--help` to show usage, `--start` to choose a
+machine version to start at (default 0) and `--jobs` to choose how many
+parallel jobs to run (default 12). Running more jobs is advantageous when
+running from scratch because the curl calls are blocking within each individual
+job, so more jobs means more parallel web requests. The sweet spot on my 4 core
+laptop is `--jobs 22` but it will depend on both hardware and network.
 
-If you're just here to search for published submissions, have a look at the
-**Permalinks** section at the bottom of this readme, or the file
-[incrediblexkcd.csv](/incrediblexkcd.csv) which contains the ids, permalinks,
-submission dates (in UTC timezone), and titles of all blueprints that have been
-published on [xkcd.com](https://xkcd.com/2916).
-
-Otherwise feel free to run the script
-[getincrediblexkcd.sh](/getincrediblexkcd.sh)
-yourself. It takes me about 6mins
-to run for the first 938 machines. You can stop it at any time by just pressing
-`CTRL-C` to send a SIGINT and it *should* exit gracefully. When you run the
-script again you can use the argument `--reset` to delete all data and start
-from scratch, or otherwise it should nominally pick up where it left off. It
-also takes aruments `--help` to show usage, `--start` to choose a machine
-version to start at (default 0) and `--jobs` to choose how many parallel jobs
-to run (default 12). No doubt there are more performant methods to use - and if
-you have any tips regarding this (or my script authorship in general) feel free
-to open an issue.
+No doubt there are more performant techniques that could be used - and if you
+have any tips regarding this (or my script authorship in general) feel free to
+open an issue.
 
 Note that the terminology here is `machine` = a full collection of many
 individual `blueprints`, which are the individual cells that can be designed
