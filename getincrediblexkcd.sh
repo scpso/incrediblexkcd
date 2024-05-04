@@ -213,7 +213,7 @@ for ((n=0 ; n<argn ; n++)); do
     fi
 done
 
-if [ "$reset" -gt 0 ]; then
+if [ -n "$reset" ] && [ "$reset" -gt 0 ]; then
     rm "$CSV" 2>/dev/null
     rm "$PFILE" 2>/dev/null
     rm -r "$MDIR" 2>/dev/null
