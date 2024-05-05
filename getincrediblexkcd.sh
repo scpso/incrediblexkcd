@@ -149,13 +149,17 @@ cleanvt() {
         # 2K -> clears line
         printf '\033[1E\033[2K'
     done
-    # %sF -> move cursor up %s lines
+    # '0F' still moves cursor up 1 so in special case of 1 job we skip this
+    if [ "$jobsn" -gt 1 ]; then
+        # %sF -> move cursor up %s lines
+        printf '\033[%sF' "$((jobsn-1))"
+    fi
     # 0m -> normal color
     # ?25h -> show cursor
-    printf '\033[%sF\033[0m\033[?25h' "$jobsn"
+    printf '\033[0m\033[?25h'
 }
 
-trap 'cleanvt; printf "^C\n"; exit 130' INT
+trap 'cleanvt; exit 130' INT
 
 # CLI
 jobscalled=''
