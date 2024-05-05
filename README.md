@@ -1403,3 +1403,7 @@ previous versions. I have no idea what the selection/moderation process is.
 [It's hard to accelerate Greens](https://xkcd.com/2916/#xt=3&yt=102&v=1349) |
 [quivering whiskers](https://xkcd.com/2916/#xt=11&yt=102&v=1350) |
 [Classic bread and butter gravity sort -P](https://xkcd.com/2916/#xt=0&yt=102&v=1351) |
+[XKCD 82 - Frame](https://xkcd.com/2916/#xt=7&yt=103&v=1353) |
+[Why do I do this?](https://xkcd.com/2916/#xt=6&yt=103&v=1354) |
+[Mass Spectrometry](https://xkcd.com/2916/#xt=4&yt=103&v=1355) |
+[Hey, guys, I have a cool idea for a machine!](https://xkcd.com/2916/#xt=8&yt=103&v=1354) |
