@@ -1407,3 +1407,5 @@ previous versions. I have no idea what the selection/moderation process is.
 [Why do I do this?](https://xkcd.com/2916/#xt=6&yt=103&v=1354) |
 [Mass Spectrometry](https://xkcd.com/2916/#xt=4&yt=103&v=1355) |
 [Hey, guys, I have a cool idea for a machine!](https://xkcd.com/2916/#xt=8&yt=103&v=1354) |
+[Weight Sort with bonus cat](https://xkcd.com/2916/#xt=3&yt=103&v=1357) |
+[point of inflection](https://xkcd.com/2916/#xt=5&yt=103&v=1357) |
