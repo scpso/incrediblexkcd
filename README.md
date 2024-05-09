@@ -1409,3 +1409,48 @@ previous versions. I have no idea what the selection/moderation process is.
 [Hey, guys, I have a cool idea for a machine!](https://xkcd.com/2916/#xt=8&yt=103&v=1354) |
 [Weight Sort with bonus cat](https://xkcd.com/2916/#xt=3&yt=103&v=1357) |
 [point of inflection](https://xkcd.com/2916/#xt=5&yt=103&v=1357) |
+[Always Validate user input](https://xkcd.com/2916/#xt=1&yt=103&v=1359) |
+[Brickwork](https://xkcd.com/2916/#xt=0&yt=103&v=1369) |
+[harvesting the lemon tree](https://xkcd.com/2916/#xt=2&yt=103&v=1358) |
+[The Bracket (now do it with all the contraptions!)](https://xkcd.com/2916/#xt=9&yt=103&v=1364) |
+[Whirli-Twirly-Machine](https://xkcd.com/2916/#xt=10&yt=103&v=1368) |
+[The Vortex](https://xkcd.com/2916/#xt=1&yt=104&v=1367) |
+[Marvelous Queen](https://xkcd.com/2916/#xt=11&yt=103&v=1366) |
+[You Spin Me Right Round](https://xkcd.com/2916/#xt=0&yt=104&v=1365) |
+[I wish there were curves](https://xkcd.com/2916/#xt=2&yt=104&v=1369) |
+[4 for the price of 1!](https://xkcd.com/2916/#xt=3&yt=104&v=1368) |
+[They're not Hammers, They're Mallets](https://xkcd.com/2916/#xt=5&yt=104&v=1374) |
+[The odd physics](https://xkcd.com/2916/#xt=4&yt=104&v=1373) |
+[Pipe-a-tron 9000](https://xkcd.com/2916/#xt=7&yt=104&v=1375) |
+[All kinds O'  Things](https://xkcd.com/2916/#xt=6&yt=104&v=1372) |
+[threading the needle (aka how do i sort four different colors)](https://xkcd.com/2916/#xt=8&yt=104&v=1376) |
+[Multisort](https://xkcd.com/2916/#xt=9&yt=104&v=1379) |
+[Up and Down](https://xkcd.com/2916/#xt=10&yt=104&v=1374) |
+[Inventory](https://xkcd.com/2916/#xt=11&yt=104&v=1375) |
+[Nondeterministic Drive](https://xkcd.com/2916/#xt=0&yt=105&v=1377) |
+[fight](https://xkcd.com/2916/#xt=1&yt=105&v=1378) |
+[Saints](https://xkcd.com/2916/#xt=2&yt=105&v=1381) |
+[organic](https://xkcd.com/2916/#xt=3&yt=105&v=1379) |
+[erratic and unfocused](https://xkcd.com/2916/#xt=5&yt=105&v=1382) |
+[4 in 4 out](https://xkcd.com/2916/#xt=4&yt=105&v=1380) |
+[Railgun](https://xkcd.com/2916/#xt=6&yt=105&v=1383) |
+[speedy and slowpoke](https://xkcd.com/2916/#xt=8&yt=105&v=1385) |
+[bouncy castle](https://xkcd.com/2916/#xt=7&yt=105&v=1384) |
+[overshot vs undershot](https://xkcd.com/2916/#xt=9&yt=105&v=1388) |
+[Modern blue/green particle abatement technology](https://xkcd.com/2916/#xt=10&yt=105&v=1386) |
+[klack,klack,klack](https://xkcd.com/2916/#xt=11&yt=105&v=1387) |
+[you must be this massive to ride](https://xkcd.com/2916/#xt=10&yt=106&v=1389) |
+[fan levitation training day - use what you learned to overcome the sword-wielding bun at the end](https://xkcd.com/2916/#xt=9&yt=106&v=1390) |
+[spline testing](https://xkcd.com/2916/#xt=11&yt=106&v=1388) |
+[Filling up the squares so we can see how it ends](https://xkcd.com/2916/#xt=6&yt=106&v=1393) |
+[This Machine Kills Sleep](https://xkcd.com/2916/#xt=8&yt=106&v=1391) |
+[Deceleration filter](https://xkcd.com/2916/#xt=5&yt=106&v=1394) |
+[Lever to exit](https://xkcd.com/2916/#xt=4&yt=106&v=1395) |
+[the tree](https://xkcd.com/2916/#xt=7&yt=106&v=1392) |
+[The secret party room in the depths of the machine](https://xkcd.com/2916/#xt=3&yt=106&v=1396) |
+[Corporate Art](https://xkcd.com/2916/#xt=2&yt=106&v=1397) |
+[Hofstadterially Confusing](https://xkcd.com/2916/#xt=1&yt=106&v=1398) |
+[teeth](https://xkcd.com/2916/#xt=0&yt=106&v=1399) |
+[i could have just left it](https://xkcd.com/2916/#xt=0&yt=107&v=1402) |
+[Big and small bounce filter](https://xkcd.com/2916/#xt=4&yt=107&v=1401) |
+[resorted](https://xkcd.com/2916/#xt=3&yt=107&v=1402) |
