@@ -1464,3 +1464,12 @@ previous versions. I have no idea what the selection/moderation process is.
 [i could have just left it](https://xkcd.com/2916/#xt=0&yt=107&v=1402) |
 [Big and small bounce filter](https://xkcd.com/2916/#xt=4&yt=107&v=1401) |
 [resorted](https://xkcd.com/2916/#xt=3&yt=107&v=1402) |
+[y-B sorter with traps](https://xkcd.com/2916/#xt=1&yt=107&v=1406) |
+[Cushioned Blowsort](https://xkcd.com/2916/#xt=2&yt=107&v=1409) |
+[anyone here order the buns?](https://xkcd.com/2916/#xt=5&yt=107&v=1408) |
+[look! if you don't pay for Blue-testing, you don't get to complain when blues go up the ramp with the reds.](https://xkcd.com/2916/#xt=6&yt=107&v=1407) |
+[A normal amount of spinning things](https://xkcd.com/2916/#xt=9&yt=107&v=1409) |
+[spin cycle](https://xkcd.com/2916/#xt=7&yt=107&v=1410) |
+[bump and sort](https://xkcd.com/2916/#xt=8&yt=107&v=1411) |
+[unless you are A sysadmin](https://xkcd.com/2916/#xt=10&yt=107&v=1411) |
+[a little momentum helps](https://xkcd.com/2916/#xt=11&yt=107&v=1411) |
