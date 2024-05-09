@@ -10,6 +10,9 @@ If you're just here to search for published submissions, have a look at the
 submission dates (in UTC timezone), and titles of all blueprints that have been
 published on [xkcd.com](https://xkcd.com/2916).
 
+## Update: Source Published!
+see: [https://github.com/xkcd/incredible](https://github.com/xkcd/incredible)
+
 I found myself wondering if any of my submissions have been published (they
 haven't) and wound up writing a small script to ingest the published data. My
 best submission was called 'boing boom tschak' and, naturally, depicted
