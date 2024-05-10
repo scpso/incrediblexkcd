@@ -1473,3 +1473,15 @@ previous versions. I have no idea what the selection/moderation process is.
 [bump and sort](https://xkcd.com/2916/#xt=8&yt=107&v=1411) |
 [unless you are A sysadmin](https://xkcd.com/2916/#xt=10&yt=107&v=1411) |
 [a little momentum helps](https://xkcd.com/2916/#xt=11&yt=107&v=1411) |
+[Eyes On Me O_O](https://xkcd.com/2916/#xt=1&yt=108&v=1422) |
+[The Bunny Went Down to the Crossroad at Midnight](https://xkcd.com/2916/#xt=4&yt=108&v=1417) |
+[a particularly obtuse needle to thread](https://xkcd.com/2916/#xt=2&yt=108&v=1415) |
+[a delicate balance](https://xkcd.com/2916/#xt=0&yt=108&v=1416) |
+[the floor is lava](https://xkcd.com/2916/#xt=3&yt=108&v=1420) |
+[It sorts!](https://xkcd.com/2916/#xt=5&yt=108&v=1418) |
+[this is what successful automation looks like](https://xkcd.com/2916/#xt=7&yt=108&v=1423) |
+[Shaman dance](https://xkcd.com/2916/#xt=6&yt=108&v=1421) |
+[backspin](https://xkcd.com/2916/#xt=8&yt=108&v=1422) |
+[mix & match](https://xkcd.com/2916/#xt=9&yt=108&v=1423) |
+[Slow Clockwork Factory](https://xkcd.com/2916/#xt=10&yt=108&v=1422) |
+[Nutritional Ecology of the Ruminant](https://xkcd.com/2916/#xt=11&yt=108&v=1423) |
