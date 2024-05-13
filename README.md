@@ -1485,3 +1485,9 @@ previous versions. I have no idea what the selection/moderation process is.
 [mix & match](https://xkcd.com/2916/#xt=9&yt=108&v=1423) |
 [Slow Clockwork Factory](https://xkcd.com/2916/#xt=10&yt=108&v=1422) |
 [Nutritional Ecology of the Ruminant](https://xkcd.com/2916/#xt=11&yt=108&v=1423) |
+[24-05-11 the wonderful world of kinetic energy](https://xkcd.com/2916/#xt=8&yt=109&v=1427) |
+[The girl with kaleidoscope eyes](https://xkcd.com/2916/#xt=6&yt=109&v=1429) |
+[Laminar Flow](https://xkcd.com/2916/#xt=7&yt=109&v=1428) |
+[Reactor Pit](https://xkcd.com/2916/#xt=10&yt=109&v=1425) |
+[pay no attention to the greens behind the "probably Deterministic signs](https://xkcd.com/2916/#xt=9&yt=109&v=1426) |
+[RAINBOW ](https://xkcd.com/2916/#xt=11&yt=109&v=1424) |
