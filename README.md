@@ -1491,3 +1491,33 @@ previous versions. I have no idea what the selection/moderation process is.
 [Reactor Pit](https://xkcd.com/2916/#xt=10&yt=109&v=1425) |
 [pay no attention to the greens behind the "probably Deterministic signs](https://xkcd.com/2916/#xt=9&yt=109&v=1426) |
 [RAINBOW ](https://xkcd.com/2916/#xt=11&yt=109&v=1424) |
+[100% fan-free all-wheel greenwashed machine](https://xkcd.com/2916/#xt=1&yt=109&v=1434) |
+[air resistance is not negligable](https://xkcd.com/2916/#xt=4&yt=109&v=1431) |
+[big bounce and little bounce](https://xkcd.com/2916/#xt=0&yt=109&v=1435) |
+[Need MOre Bricks, Bunny](https://xkcd.com/2916/#xt=2&yt=109&v=1433) |
+[Gravity Tower](https://xkcd.com/2916/#xt=5&yt=109&v=1440) |
+[freewheeling](https://xkcd.com/2916/#xt=3&yt=109&v=1432) |
+[airplane](https://xkcd.com/2916/#xt=0&yt=110&v=1437) |
+[The innocuous horsey](https://xkcd.com/2916/#xt=1&yt=110&v=1441) |
+[Quicky](https://xkcd.com/2916/#xt=2&yt=110&v=1439) |
+[Look in to my eyes](https://xkcd.com/2916/#xt=4&yt=110&v=1441) |
+[Cat House](https://xkcd.com/2916/#xt=3&yt=110&v=1440) |
+[Under Construction](https://xkcd.com/2916/#xt=5&yt=110&v=1448) |
+[dependency](https://xkcd.com/2916/#xt=6&yt=110&v=1450) |
+[GIVE PEAS A CHANCE](https://xkcd.com/2916/#xt=7&yt=110&v=1446) |
+[cool cats and kittens](https://xkcd.com/2916/#xt=8&yt=110&v=1447) |
+[the thinganator 3000](https://xkcd.com/2916/#xt=9&yt=110&v=1445) |
+[tristate area inertia sorter](https://xkcd.com/2916/#xt=10&yt=110&v=1449) |
+[This is the easy way](https://xkcd.com/2916/#xt=11&yt=110&v=1451) |
+[Refraction Plinko](https://xkcd.com/2916/#xt=3&yt=111&v=1450) |
+[shapes](https://xkcd.com/2916/#xt=5&yt=111&v=1448) |
+[The Dark Lord builds on shaky foundations](https://xkcd.com/2916/#xt=0&yt=111&v=1454) |
+[Non-Relativistic Baseball](https://xkcd.com/2916/#xt=1&yt=111&v=1453) |
+[podium finish](https://xkcd.com/2916/#xt=6&yt=111&v=1449) |
+[fruit sorter........................only lemons get through; apples cherries and blueberries are rejected.](https://xkcd.com/2916/#xt=4&yt=111&v=1451) |
+[The Fiballnacci Geekuence](https://xkcd.com/2916/#xt=2&yt=111&v=1452) |
+[Banzai Run](https://xkcd.com/2916/#xt=7&yt=111&v=1455) |
+[will it filter out blues and yellows? How should I know?](https://xkcd.com/2916/#xt=8&yt=111&v=1456) |
+[Tabs vs Spaces](https://xkcd.com/2916/#xt=9&yt=111&v=1458) |
+[live by the sword, sort by the sword](https://xkcd.com/2916/#xt=10&yt=111&v=1459) |
+[just another brick in the wall](https://xkcd.com/2916/#xt=11&yt=111&v=1459) |
