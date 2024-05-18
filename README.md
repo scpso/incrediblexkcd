@@ -1521,3 +1521,16 @@ previous versions. I have no idea what the selection/moderation process is.
 [Tabs vs Spaces](https://xkcd.com/2916/#xt=9&yt=111&v=1458) |
 [live by the sword, sort by the sword](https://xkcd.com/2916/#xt=10&yt=111&v=1459) |
 [just another brick in the wall](https://xkcd.com/2916/#xt=11&yt=111&v=1459) |
+[regression to the mean](https://xkcd.com/2916/#xt=0&yt=112&v=1468) |
+[Nut Room](https://xkcd.com/2916/#xt=1&yt=112&v=1463) |
+[turbosmash overkill 9^∞](https://xkcd.com/2916/#xt=2&yt=112&v=1462) |
+[Traffic report: A kitty is building a pillow fort in the middle of a busy intersection; expect delays](https://xkcd.com/2916/#xt=3&yt=112&v=1465) |
+[probably as fast as it gets](https://xkcd.com/2916/#xt=4&yt=112&v=1466) |
+[weeeeeeeeeeee](https://xkcd.com/2916/#xt=7&yt=112&v=1471) |
+[this works better than bonkers](https://xkcd.com/2916/#xt=5&yt=112&v=1467) |
+[liminal space](https://xkcd.com/2916/#xt=6&yt=112&v=1470) |
+[Wheel-Of-fortune](https://xkcd.com/2916/#xt=8&yt=112&v=1469) |
+[red levitator](https://xkcd.com/2916/#xt=10&yt=112&v=1470) |
+[DC traffic](https://xkcd.com/2916/#xt=9&yt=112&v=1471) |
+[swat away](https://xkcd.com/2916/#xt=11&yt=112&v=1472) |
+[Score in treble](https://xkcd.com/2916/#xt=1&yt=113&v=1472) |
