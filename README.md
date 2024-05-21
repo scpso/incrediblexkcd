@@ -1534,3 +1534,52 @@ previous versions. I have no idea what the selection/moderation process is.
 [DC traffic](https://xkcd.com/2916/#xt=9&yt=112&v=1471) |
 [swat away](https://xkcd.com/2916/#xt=11&yt=112&v=1472) |
 [Score in treble](https://xkcd.com/2916/#xt=1&yt=113&v=1472) |
+["I dunno man, it kinds feels like animal cruelty."](https://xkcd.com/2916/#xt=0&yt=113&v=1479) |
+[It's all about the bounce, 'bout the bounce, no joke](https://xkcd.com/2916/#xt=2&yt=113&v=1478) |
+[leap of faith](https://xkcd.com/2916/#xt=3&yt=113&v=1479) |
+[BouyancySorter](https://xkcd.com/2916/#xt=4&yt=113&v=1480) |
+[anomalous area](https://xkcd.com/2916/#xt=5&yt=113&v=1482) |
+[Mix, Sort, done](https://xkcd.com/2916/#xt=6&yt=113&v=1483) |
+[I should be asleep but instead im here making this](https://xkcd.com/2916/#xt=8&yt=113&v=1484) |
+[take the more scenic route and enjoy the wildlife](https://xkcd.com/2916/#xt=7&yt=113&v=1481) |
+[friction-assisted wind separator with safety cats on duty cycles](https://xkcd.com/2916/#xt=9&yt=113&v=1482) |
+[a room with a view](https://xkcd.com/2916/#xt=10&yt=113&v=1483) |
+[hovering flux separator](https://xkcd.com/2916/#xt=1&yt=114&v=1488) |
+[shapes 2](https://xkcd.com/2916/#xt=0&yt=114&v=1486) |
+[jumpman](https://xkcd.com/2916/#xt=11&yt=113&v=1484) |
+[PRIME MINISTER](https://xkcd.com/2916/#xt=2&yt=114&v=1490) |
+[Not because it's easy; because it's hard](https://xkcd.com/2916/#xt=3&yt=114&v=1489) |
+[pillow snake](https://xkcd.com/2916/#xt=4&yt=114&v=1491) |
+[measure twice, cut once](https://xkcd.com/2916/#xt=5&yt=114&v=1492) |
+[Killer Buns](https://xkcd.com/2916/#xt=6&yt=114&v=1490) |
+[Yellow-Green sorting with no fans](https://xkcd.com/2916/#xt=7&yt=114&v=1491) |
+[Double Sorter R-G R-Y](https://xkcd.com/2916/#xt=8&yt=114&v=1493) |
+[Uphill Battle](https://xkcd.com/2916/#xt=9&yt=114&v=1494) |
+[serpent channel](https://xkcd.com/2916/#xt=10&yt=114&v=1497) |
+[elevator's out](https://xkcd.com/2916/#xt=0&yt=115&v=1499) |
+[Green may pass go.  Everyone else gets the bonk.](https://xkcd.com/2916/#xt=11&yt=114&v=1495) |
+[iconic triumvirate](https://xkcd.com/2916/#xt=2&yt=115&v=1500) |
+[bounce sorter](https://xkcd.com/2916/#xt=1&yt=115&v=1498) |
+[Follow: Curve vs White rabbit](https://xkcd.com/2916/#xt=3&yt=115&v=1499) |
+[trash sorter](https://xkcd.com/2916/#xt=4&yt=115&v=1501) |
+[Soft Cell](https://xkcd.com/2916/#xt=5&yt=115&v=1504) |
+[Confused Ornaments](https://xkcd.com/2916/#xt=6&yt=115&v=1502) |
+[green pease shooter](https://xkcd.com/2916/#xt=7&yt=115&v=1508) |
+[ANOTHER FANSORT](https://xkcd.com/2916/#xt=8&yt=115&v=1505) |
+[Red Filter Yellow Filter But Just Throwing Blue Uphill](https://xkcd.com/2916/#xt=9&yt=115&v=1506) |
+[three colors one sorting mechanism](https://xkcd.com/2916/#xt=10&yt=115&v=1509) |
+[straight forward](https://xkcd.com/2916/#xt=11&yt=115&v=1507) |
+[A Scurry of Squirrels](https://xkcd.com/2916/#xt=0&yt=116&v=1508) |
+[What!?](https://xkcd.com/2916/#xt=1&yt=116&v=1510) |
+[Weeee](https://xkcd.com/2916/#xt=2&yt=116&v=1512) |
+[The Great (Bunny) Escape (Clause)](https://xkcd.com/2916/#xt=3&yt=116&v=1511) |
+[Bunny Scoffs At Your Gravity](https://xkcd.com/2916/#xt=4&yt=116&v=1515) |
+[weelz](https://xkcd.com/2916/#xt=5&yt=116&v=1513) |
+[le petit prince](https://xkcd.com/2916/#xt=6&yt=116&v=1516) |
+[I just wanted to use every item thing at least once](https://xkcd.com/2916/#xt=7&yt=116&v=1515) |
+[ricochet](https://xkcd.com/2916/#xt=8&yt=116&v=1518) |
+[All around and back again](https://xkcd.com/2916/#xt=9&yt=116&v=1517) |
+[triumvirate](https://xkcd.com/2916/#xt=10&yt=116&v=1519) |
+[Temple Of bonk](https://xkcd.com/2916/#xt=11&yt=116&v=1521) |
+[ski jump](https://xkcd.com/2916/#xt=11&yt=117&v=1520) |
+[Around the anvils!](https://xkcd.com/2916/#xt=9&yt=117&v=1521) |
