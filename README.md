@@ -1583,3 +1583,31 @@ previous versions. I have no idea what the selection/moderation process is.
 [Temple Of bonk](https://xkcd.com/2916/#xt=11&yt=116&v=1521) |
 [ski jump](https://xkcd.com/2916/#xt=11&yt=117&v=1520) |
 [Around the anvils!](https://xkcd.com/2916/#xt=9&yt=117&v=1521) |
+[I don't know why you're upset, this was the simplest solution I could find](https://xkcd.com/2916/#xt=1&yt=117&v=1528) |
+[Attack of the Angle Brackets](https://xkcd.com/2916/#xt=7&yt=117&v=1526) |
+[minister of primes](https://xkcd.com/2916/#xt=0&yt=117&v=1525) |
+[amazeballs](https://xkcd.com/2916/#xt=10&yt=117&v=1524) |
+[Cat Sort](https://xkcd.com/2916/#xt=3&yt=117&v=1531) |
+[THE ONE THAT BARELY HOLDS TOGETHER](https://xkcd.com/2916/#xt=4&yt=117&v=1529) |
+[a machine with to many cats and also some prisms for fun and because they look cool](https://xkcd.com/2916/#xt=2&yt=117&v=1532) |
+[Apple sorter](https://xkcd.com/2916/#xt=6&yt=117&v=1527) |
+[are you sure you are yellow?](https://xkcd.com/2916/#xt=5&yt=117&v=1528) |
+[this shouldn't work](https://xkcd.com/2916/#xt=8&yt=117&v=1526) |
+[triple merge and split](https://xkcd.com/2916/#xt=4&yt=117&v=1533) |
+[Divide by almost two](https://xkcd.com/2916/#xt=0&yt=118&v=1533) |
+[yellow-boson collider and check for new particles](https://xkcd.com/2916/#xt=1&yt=118&v=1542) |
+[on a knife edge](https://xkcd.com/2916/#xt=4&yt=118&v=1541) |
+[look, if we don't use the entire budget then we won't have it to use next year](https://xkcd.com/2916/#xt=3&yt=118&v=1543) |
+[yet another boring sorter](https://xkcd.com/2916/#xt=5&yt=118&v=1536) |
+[why won't anyone let me use this lovely hammer](https://xkcd.com/2916/#xt=2&yt=118&v=1544) |
+[Missing a cat](https://xkcd.com/2916/#xt=6&yt=118&v=1539) |
+[strange planet: Conveying spheroids into receptacles](https://xkcd.com/2916/#xt=7&yt=118&v=1540) |
+[Look at the stars](https://xkcd.com/2916/#xt=8&yt=118&v=1542) |
+[the maelstrom has you](https://xkcd.com/2916/#xt=10&yt=118&v=1543) |
+[Catmachine](https://xkcd.com/2916/#xt=9&yt=118&v=1541) |
+[HarrXXXV](https://xkcd.com/2916/#xt=11&yt=118&v=1544) |
+[design by committee v.0.1.28](https://xkcd.com/2916/#xt=0&yt=119&v=1547) |
+[Missorted Balls get sent to the VOID](https://xkcd.com/2916/#xt=9&yt=119&v=1549) |
+[the secret behind the bun-in-the-hat trick](https://xkcd.com/2916/#xt=1&yt=119&v=1546) |
+[Blue green meet and greet](https://xkcd.com/2916/#xt=10&yt=119&v=1549) |
+[rainbow road](https://xkcd.com/2916/#xt=11&yt=119&v=1547) |
