@@ -1611,3 +1611,30 @@ previous versions. I have no idea what the selection/moderation process is.
 [the secret behind the bun-in-the-hat trick](https://xkcd.com/2916/#xt=1&yt=119&v=1546) |
 [Blue green meet and greet](https://xkcd.com/2916/#xt=10&yt=119&v=1549) |
 [rainbow road](https://xkcd.com/2916/#xt=11&yt=119&v=1547) |
+[Feline Assistance](https://xkcd.com/2916/#xt=2&yt=119&v=1560) |
+[fast & slow](https://xkcd.com/2916/#xt=3&yt=119&v=1553) |
+[shooting fish in a barrel](https://xkcd.com/2916/#xt=4&yt=119&v=1558) |
+[strong headwinds](https://xkcd.com/2916/#xt=6&yt=119&v=1560) |
+[Wheels and speed.](https://xkcd.com/2916/#xt=5&yt=119&v=1554) |
+[the wheel in the sky keeps on turnin](https://xkcd.com/2916/#xt=8&yt=119&v=1559) |
+[so why are we out this time?](https://xkcd.com/2916/#xt=7&yt=119&v=1561) |
+[those greens hit the cat too hard.](https://xkcd.com/2916/#xt=6&yt=119&v=1556) |
+[Really Proud of Kitty](https://xkcd.com/2916/#xt=5&yt=119&v=1553) |
+[mcdonalds ball pit sort](https://xkcd.com/2916/#xt=0&yt=120&v=1560) |
+[nothing but fans](https://xkcd.com/2916/#xt=1&yt=120&v=1562) |
+[very credible machine](https://xkcd.com/2916/#xt=2&yt=120&v=1564) |
+[You didn't Rotate anything and it's *STILL* complex](https://xkcd.com/2916/#xt=3&yt=120&v=1569) |
+[inward spiral](https://xkcd.com/2916/#xt=4&yt=120&v=1567) |
+[Bouncesort II](https://xkcd.com/2916/#xt=5&yt=120&v=1570) |
+[right isn't better](https://xkcd.com/2916/#xt=6&yt=120&v=1566) |
+[Meh](https://xkcd.com/2916/#xt=7&yt=120&v=1569) |
+[one part elegant, one part manic](https://xkcd.com/2916/#xt=8&yt=120&v=1571) |
+[it could have been done with no items, but...](https://xkcd.com/2916/#xt=10&yt=120&v=1570) |
+[Feeding the bonkfish by the shipwreck](https://xkcd.com/2916/#xt=9&yt=120&v=1573) |
+[oversimplified](https://xkcd.com/2916/#xt=11&yt=120&v=1572) |
+[Ugh](https://xkcd.com/2916/#xt=8&yt=121&v=1574) |
+[bouncesort with error correction and straggler management](https://xkcd.com/2916/#xt=7&yt=121&v=1575) |
+[the festival with a man who is on fire (tm)](https://xkcd.com/2916/#xt=5&yt=121&v=1576) |
+[zap](https://xkcd.com/2916/#xt=9&yt=121&v=1573) |
+[chaos stick](https://xkcd.com/2916/#xt=11&yt=121&v=1572) |
+[Why are you talking about a "cult"? we just worship that relativistic, deterministic, sword-wielding being over there.](https://xkcd.com/2916/#xt=4&yt=121&v=1577) |
