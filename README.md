@@ -1638,3 +1638,9 @@ previous versions. I have no idea what the selection/moderation process is.
 [zap](https://xkcd.com/2916/#xt=9&yt=121&v=1573) |
 [chaos stick](https://xkcd.com/2916/#xt=11&yt=121&v=1572) |
 [Why are you talking about a "cult"? we just worship that relativistic, deterministic, sword-wielding being over there.](https://xkcd.com/2916/#xt=4&yt=121&v=1577) |
+[Our machine uses 100% solar powered fans!](https://xkcd.com/2916/#xt=1&yt=121&v=1580) |
+[The woodland wars](https://xkcd.com/2916/#xt=0&yt=121&v=1579) |
+[does three bounce-filters constitute a plethora? Sure, it's a plethora of bounce-filters.](https://xkcd.com/2916/#xt=6&yt=121&v=1582) |
+[fan-assisted bonklift, curved slow drop, cat for safety](https://xkcd.com/2916/#xt=3&yt=121&v=1581) |
+[Accusort with cat traps and automatic unclogging](https://xkcd.com/2916/#xt=2&yt=121&v=1583) |
+[Frictional Losses](https://xkcd.com/2916/#xt=10&yt=121&v=1583) |
