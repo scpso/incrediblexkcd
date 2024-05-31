@@ -1644,3 +1644,27 @@ previous versions. I have no idea what the selection/moderation process is.
 [fan-assisted bonklift, curved slow drop, cat for safety](https://xkcd.com/2916/#xt=3&yt=121&v=1581) |
 [Accusort with cat traps and automatic unclogging](https://xkcd.com/2916/#xt=2&yt=121&v=1583) |
 [Frictional Losses](https://xkcd.com/2916/#xt=10&yt=121&v=1583) |
+[Under-engineered](https://xkcd.com/2916/#xt=1&yt=122&v=1594) |
+[can(n)onical device](https://xkcd.com/2916/#xt=0&yt=122&v=1587) |
+[This was a lot of work](https://xkcd.com/2916/#xt=2&yt=122&v=1586) |
+[Simple machine ](https://xkcd.com/2916/#xt=3&yt=122&v=1588) |
+[Check out my only fans!](https://xkcd.com/2916/#xt=4&yt=122&v=1590) |
+[about as deterministic as i can get it sort](https://xkcd.com/2916/#xt=6&yt=122&v=1592) |
+[XKCD #356: "Nerd Sniping" ("On this infinite grid of ideal one-ohm resistors...")](https://xkcd.com/2916/#xt=7&yt=122&v=1595) |
+[Pinfall](https://xkcd.com/2916/#xt=5&yt=122&v=1593) |
+[More datapoints needed for accurate red and yellow filtration](https://xkcd.com/2916/#xt=11&yt=122&v=1591) |
+[Kittlesticks](https://xkcd.com/2916/#xt=9&yt=122&v=1594) |
+[Maxwell's hell](https://xkcd.com/2916/#xt=10&yt=122&v=1592) |
+[this game is a lot harder with anti-gravity](https://xkcd.com/2916/#xt=1&yt=123&v=1595) |
+[pareidolia](https://xkcd.com/2916/#xt=8&yt=122&v=1597) |
+[the whoopsie doodle](https://xkcd.com/2916/#xt=3&yt=123&v=1601) |
+[the cat thinks she does everything, as usual](https://xkcd.com/2916/#xt=9&yt=123&v=1598) |
+[We sure this is deterministic?](https://xkcd.com/2916/#xt=5&yt=123&v=1600) |
+[Upstairs apartment has a leak in the bathroom roof](https://xkcd.com/2916/#xt=8&yt=123&v=1599) |
+[the mandelbonk set](https://xkcd.com/2916/#xt=11&yt=123&v=1597) |
+[SUnshine](https://xkcd.com/2916/#xt=0&yt=123&v=1603) |
+[yellow by gravity and blue by the force](https://xkcd.com/2916/#xt=2&yt=123&v=1605) |
+[multiplication of prime numbers under a foggy sky](https://xkcd.com/2916/#xt=6&yt=123&v=1606) |
+[ 'surely there's an easier way to hold the anvil here?' ](https://xkcd.com/2916/#xt=4&yt=123&v=1607) |
+[Batching mulitway green-sorting bouncervator wander-a-tronic bibble-o-matic](https://xkcd.com/2916/#xt=7&yt=123&v=1604) |
+[did i forget anything?](https://xkcd.com/2916/#xt=10&yt=123&v=1606) |
