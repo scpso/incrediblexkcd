@@ -1668,3 +1668,21 @@ previous versions. I have no idea what the selection/moderation process is.
 [ 'surely there's an easier way to hold the anvil here?' ](https://xkcd.com/2916/#xt=4&yt=123&v=1607) |
 [Batching mulitway green-sorting bouncervator wander-a-tronic bibble-o-matic](https://xkcd.com/2916/#xt=7&yt=123&v=1604) |
 [did i forget anything?](https://xkcd.com/2916/#xt=10&yt=123&v=1606) |
+[wind tunnel](https://xkcd.com/2916/#xt=0&yt=124&v=1611) |
+[The Mostly Workinator 9000](https://xkcd.com/2916/#xt=1&yt=124&v=1609) |
+[wHIRLPOOL](https://xkcd.com/2916/#xt=3&yt=124&v=1619) |
+[Flipperkast](https://xkcd.com/2916/#xt=2&yt=124&v=1610) |
+[Honestly the cats just cause problems.](https://xkcd.com/2916/#xt=4&yt=124&v=1613) |
+[Don't Ask Why this Works](https://xkcd.com/2916/#xt=5&yt=124&v=1618) |
+[The long way around. It's also chaotic. Look out!](https://xkcd.com/2916/#xt=6&yt=124&v=1615) |
+[Pin Point Precision permits proper processing preventing panic and pain](https://xkcd.com/2916/#xt=7&yt=124&v=1616) |
+[Bun Takes the High Road and Bun Takes the Low Road](https://xkcd.com/2916/#xt=11&yt=124&v=1617) |
+[stray ball circulator](https://xkcd.com/2916/#xt=0&yt=125&v=1619) |
+[Observation deck](https://xkcd.com/2916/#xt=1&yt=125&v=1618) |
+[wielding the sword of inconsequential justice](https://xkcd.com/2916/#xt=2&yt=125&v=1620) |
+[b-g-g filter that really didn't want to work](https://xkcd.com/2916/#xt=8&yt=124&v=1624) |
+[Terrible factory](https://xkcd.com/2916/#xt=4&yt=125&v=1621) |
+[horrible crossing](https://xkcd.com/2916/#xt=3&yt=125&v=1620) |
+[the bun tree](https://xkcd.com/2916/#xt=5&yt=125&v=1623) |
+[dual channel mode](https://xkcd.com/2916/#xt=9&yt=124&v=1625) |
+[Friday afternoon machine](https://xkcd.com/2916/#xt=10&yt=124&v=1625) |
