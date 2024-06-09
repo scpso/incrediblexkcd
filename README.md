@@ -1686,3 +1686,28 @@ previous versions. I have no idea what the selection/moderation process is.
 [the bun tree](https://xkcd.com/2916/#xt=5&yt=125&v=1623) |
 [dual channel mode](https://xkcd.com/2916/#xt=9&yt=124&v=1625) |
 [Friday afternoon machine](https://xkcd.com/2916/#xt=10&yt=124&v=1625) |
+[uncomplicated bounce sort](https://xkcd.com/2916/#xt=7&yt=125&v=1629) |
+[Unnecessary Corners](https://xkcd.com/2916/#xt=6&yt=125&v=1634) |
+[The Dark Path](https://xkcd.com/2916/#xt=8&yt=125&v=1630) |
+[I wonder what's going on down there](https://xkcd.com/2916/#xt=9&yt=125&v=1631) |
+[Infinitely cool](https://xkcd.com/2916/#xt=10&yt=125&v=1633) |
+[DR. Meow's Frendly Annihilator](https://xkcd.com/2916/#xt=11&yt=125&v=1635) |
+[red rocket](https://xkcd.com/2916/#xt=0&yt=126&v=1636) |
+[when the paths don't cross but you like sorters](https://xkcd.com/2916/#xt=8&yt=126&v=1637) |
+[Pick a sword](https://xkcd.com/2916/#xt=11&yt=126&v=1634) |
+[dodging the bonks](https://xkcd.com/2916/#xt=11&yt=125&v=1631) |
+[the first Pride was a riot](https://xkcd.com/2916/#xt=10&yt=126&v=1635) |
+[I probably should have fueld up before taking off.](https://xkcd.com/2916/#xt=9&yt=126&v=1636) |
+[the last stand](https://xkcd.com/2916/#xt=2&yt=126&v=1640) |
+[Tangled (2010) At Last I ](https://xkcd.com/2916/#xt=2&yt=126&v=1639) |
+[Roller Coaster](https://xkcd.com/2916/#xt=1&yt=126&v=1638) |
+[Who's that?](https://xkcd.com/2916/#xt=3&yt=126&v=1644) |
+[three and a half](https://xkcd.com/2916/#xt=4&yt=126&v=1645) |
+[HOw to navigate a British roundabout](https://xkcd.com/2916/#xt=5&yt=126&v=1649) |
+[Or we could take the scenic route...](https://xkcd.com/2916/#xt=6&yt=126&v=1644) |
+[bouncesort IV - Color Coded](https://xkcd.com/2916/#xt=7&yt=126&v=1646) |
+[speculative error de-propagationator](https://xkcd.com/2916/#xt=9&yt=127&v=1649) |
+[Minecraft ](https://xkcd.com/2916/#xt=11&yt=127&v=1647) |
+[Six Flags](https://xkcd.com/2916/#xt=10&yt=127&v=1648) |
+["Breakout" is a stupid game (#347)](https://xkcd.com/2916/#xt=11&yt=127&v=1646) |
+[detour](https://xkcd.com/2916/#xt=0&yt=127&v=1650) |
